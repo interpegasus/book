@@ -16,11 +16,56 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BhU-rr-DRq">
+                                <rect key="frame" x="249" y="28" width="101" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Baq-dc-q56">
+                                <rect key="frame" x="278" y="116" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQd-eo-U5a">
+                                <rect key="frame" x="249" y="145" width="101" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hY-GF-1e4">
+                                <rect key="frame" x="278" y="87" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Pe-1g-yTV">
+                                <rect key="frame" x="278" y="204" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.95686274509803682" blue="0.67174135818120351" alpha="0.60400044326241131" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xQd-eo-U5a" firstAttribute="top" secondItem="Baq-dc-q56" secondAttribute="bottom" constant="8" id="4gE-2Z-0u8"/>
+                            <constraint firstItem="BhU-rr-DRq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="8tM-wd-bbL"/>
+                            <constraint firstItem="Baq-dc-q56" firstAttribute="centerX" secondItem="BhU-rr-DRq" secondAttribute="centerX" id="MfB-bT-EZT"/>
+                            <constraint firstItem="5hY-GF-1e4" firstAttribute="top" secondItem="BhU-rr-DRq" secondAttribute="bottom" constant="8" id="Nc9-An-hRU"/>
+                            <constraint firstItem="BhU-rr-DRq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d17-CG-ZgX"/>
+                            <constraint firstItem="7Pe-1g-yTV" firstAttribute="top" secondItem="xQd-eo-U5a" secondAttribute="bottom" constant="8" id="dZ5-CV-1w6"/>
+                            <constraint firstItem="xQd-eo-U5a" firstAttribute="centerX" secondItem="BhU-rr-DRq" secondAttribute="centerX" id="k94-2d-AFe"/>
+                            <constraint firstItem="Baq-dc-q56" firstAttribute="top" secondItem="5hY-GF-1e4" secondAttribute="bottom" constant="8" id="vPD-h2-P2o"/>
+                            <constraint firstItem="5hY-GF-1e4" firstAttribute="centerX" secondItem="BhU-rr-DRq" secondAttribute="centerX" id="xwz-17-fnG"/>
+                            <constraint firstItem="7Pe-1g-yTV" firstAttribute="centerX" secondItem="BhU-rr-DRq" secondAttribute="centerX" id="y3V-di-JJL"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="304.5" y="374.5"/>
         </scene>
     </scenes>
 </document>
