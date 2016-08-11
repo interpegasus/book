@@ -7,14 +7,38 @@
 //
 
 import UIKit
+protocol SomeProtocol {
+    // protocol definition goes here
+}
+
 //
 //protocol UITextFieldDelegate: NSObjectProtocol {
 //    optional func textFieldShouldBeginEditing(textField: UITextField) -> Bool
 //}
 
-class ConversionViewConmtroler: UIViewController {
+class ConversionViewConmtroler: UIViewController,UITextFieldDelegate {
     @IBOutlet var celsiusLabel:UILabel!
     @IBOutlet var textField:UITextField!
+    
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+        
+        print("Current text: \(textField.text)")
+        print("Replace text: \(string)")
+        
+        let existingTextHasDecimalSeparator = textField.text?.rangeOfString(".")
+        let replacementTextHasDecimalSeparator = string.rangeOfString(".")
+
+        if string.lowercaseString.rangeOfCharacterFromSet(NSCharacterSet.letterCharacterSet()) != nil {
+            return false
+        }
+
+        if (existingTextHasDecimalSeparator != nil && replacementTextHasDecimalSeparator != nil) {
+            return false
+        }
+        else {
+            return true
+        }
+    }
     
     var farenheithValue: Double? {
         didSet {
@@ -36,6 +60,7 @@ class ConversionViewConmtroler: UIViewController {
         nf.numberStyle = .DecimalStyle
         nf.minimumFractionDigits = 0
         nf.maximumFractionDigits = 1
+        nf.alwaysShowsDecimalSeparator = true
         return nf
     }()
     
