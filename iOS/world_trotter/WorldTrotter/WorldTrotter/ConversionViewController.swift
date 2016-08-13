@@ -7,14 +7,6 @@
 //
 
 import UIKit
-protocol SomeProtocol {
-    // protocol definition goes here
-}
-
-//
-//protocol UITextFieldDelegate: NSObjectProtocol {
-//    optional func textFieldShouldBeginEditing(textField: UITextField) -> Bool
-//}
 
 class ConversionViewConmtroler: UIViewController,UITextFieldDelegate {
     @IBOutlet var celsiusLabel:UILabel!
@@ -85,5 +77,25 @@ class ConversionViewConmtroler: UIViewController,UITextFieldDelegate {
         textField.resignFirstResponder()
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("Conversion VC")
+    }
     
+    override func viewWillAppear(animated: Bool) {
+        let date = NSDate()
+        let calendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)
+        let components = calendar?.components(.Hour, fromDate: date)
+        let currentHour = components!.hour
+        let lightColor = UIColor.init(red:1.00,  green:1.00,  blue:1.00, alpha:0.7)
+        let darkColor = UIColor.init(red:0.20 ,  green:0.20 ,  blue:0.20 , alpha:0.9)
+        switch currentHour {
+        case 0...6, 18...23:
+            view.backgroundColor = darkColor
+            break
+        default:
+            view.backgroundColor = lightColor
+        }
+    }
+
 }
