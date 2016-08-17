@@ -87,8 +87,8 @@ class ConversionViewConmtroler: UIViewController,UITextFieldDelegate {
         let calendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)
         let components = calendar?.components(.Hour, fromDate: date)
         let currentHour = components!.hour
-        let lightColor = UIColor.init(red:1.00,  green:1.00,  blue:1.00, alpha:0.7)
-        let darkColor = UIColor.init(red:0.20 ,  green:0.20 ,  blue:0.20 , alpha:0.9)
+        let lightColor = UIColor.init(red:0.29,  green:0.53,  blue:0.91, alpha:0.7)
+        let darkColor = UIColor.init(red:0.04 ,  green:0.16 ,  blue:0.36 , alpha:0.9)
         switch currentHour {
         case 0...6, 18...23:
             view.backgroundColor = darkColor
