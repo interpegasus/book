@@ -93,17 +93,42 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="487" y="379"/>
+            <point key="canvasLocation" x="366" y="483"/>
+        </scene>
+        <!--Web View-->
+        <scene sceneID="9FU-yT-YzY">
+            <objects>
+                <viewController id="fv6-6A-S1Z" userLabel="Web View" customClass="WebViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bi4-sO-bWm"/>
+                        <viewControllerLayoutGuide type="bottom" id="igY-1V-v6F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QQk-dz-mXG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WfD-D4-0dB">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Web" image="ConvertIcon" id="Lae-05-9Z5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hw0-ti-HCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1135" y="-140"/>
         </scene>
         <!--Map-->
         <scene sceneID="zsU-Z4-2Lm">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5wc-mW-H97" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="5vQ-AM-hvj" customClass="MapViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="xqe-wM-bfK"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5wc-mW-H97" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1201" y="-351"/>
+            <point key="canvasLocation" x="-215" y="-1359"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8YX-RS-AR7">
@@ -117,11 +142,12 @@
                     <connections>
                         <segue destination="5vQ-AM-hvj" kind="relationship" relationship="viewControllers" id="jUk-P5-Ube"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="aYu-6o-Tmg"/>
+                        <segue destination="fv6-6A-S1Z" kind="relationship" relationship="viewControllers" id="2k2-lq-QHF"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Car-tc-zFi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="487" y="-351"/>
+            <point key="canvasLocation" x="323" y="-427"/>
         </scene>
     </scenes>
     <resources>
