@@ -14,17 +14,14 @@ class ConversionViewConmtroler: UIViewController,UITextFieldDelegate {
     
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         
-        print("Current text: \(textField.text)")
-        print("Replace text: \(string)")
+        let currentLocale = NSLocale.currentLocale()
+        let decimalSeparator =
+            currentLocale.objectForKey(NSLocaleDecimalSeparator) as! String
         
-        let existingTextHasDecimalSeparator = textField.text?.rangeOfString(".")
-        let replacementTextHasDecimalSeparator = string.rangeOfString(".")
-
-        if string.lowercaseString.rangeOfCharacterFromSet(NSCharacterSet.letterCharacterSet()) != nil {
-            return false
-        }
-
-        if (existingTextHasDecimalSeparator != nil && replacementTextHasDecimalSeparator != nil) {
+        let existingTextHasDecimalSeparator = textField.text?.rangeOfString(decimalSeparator)
+        let replacementTextHasDecimalSeparator = string.rangeOfString(decimalSeparator)
+        
+        if existingTextHasDecimalSeparator != nil && replacementTextHasDecimalSeparator != nil {
             return false
         }
         else {
@@ -66,12 +63,14 @@ class ConversionViewConmtroler: UIViewController,UITextFieldDelegate {
     }
     
     @IBAction func FareheithTextChanged(textField: UITextField) {
-        if let text = textField.text, value = Double(text) {
-            farenheithValue = value
-        } else {
+        if let text = textField.text, let number = numberFortmatter.numberFromString(text) {
+            farenheithValue = number.doubleValue
+        }
+        else {
             farenheithValue = nil
         }
     }
+    
     
     @IBAction func dismissKeyboard(sender: AnyObject){
         textField.resignFirstResponder()

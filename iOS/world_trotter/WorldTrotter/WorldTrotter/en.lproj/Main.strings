@@ -1,0 +1,33 @@
+
+/* Class = "UIViewController"; title = "Web View"; ObjectID = "1b2-BD-WiH"; */
+"1b2-BD-WiH.title" = "Web View";
+
+/* Class = "UILabel"; text = "degrees Farenheith"; ObjectID = "5hY-GF-1e4"; */
+"5hY-GF-1e4.text" = "degrees Farenheith";
+
+/* Class = "UIViewController"; title = "Map View"; ObjectID = "5vQ-AM-hvj"; */
+"5vQ-AM-hvj.title" = "Map View";
+
+/* Class = "UILabel"; text = "degrees Celsius"; ObjectID = "7Pe-1g-yTV"; */
+"7Pe-1g-yTV.text" = "degrees Celsius";
+
+/* Class = "UITabBarItem"; title = "Convert Temperatrure"; ObjectID = "AjW-Ub-G7V"; */
+"AjW-Ub-G7V.title" = "Convert Temperatrure";
+
+/* Class = "UIViewController"; title = "Temperature"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Temperature";
+
+/* Class = "UILabel"; text = "is"; ObjectID = "Baq-dc-q56"; */
+"Baq-dc-q56.text" = "is";
+
+/* Class = "UITextField"; placeholder = "value"; ObjectID = "JY2-Ac-NWm"; */
+"JY2-Ac-NWm.placeholder" = "value";
+
+/* Class = "UITabBarItem"; title = "AG Web"; ObjectID = "aJo-nG-A2v"; */
+"aJo-nG-A2v.title" = "AG Web";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xQd-eo-U5a"; */
+"xQd-eo-U5a.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "xqe-wM-bfK"; */
+"xqe-wM-bfK.title" = "Map";

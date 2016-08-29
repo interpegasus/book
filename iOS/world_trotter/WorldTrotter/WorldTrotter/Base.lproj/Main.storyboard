@@ -3,6 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Temperature-->
@@ -61,11 +63,13 @@
                         <color key="backgroundColor" red="0.96078431372549022" green="0.95686274509803682" blue="0.67174135818120351" alpha="0.60400044326241131" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="5hY-GF-1e4" secondAttribute="leading" id="0Tv-1z-pY6"/>
                             <constraint firstItem="JY2-Ac-NWm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1z3-UD-4Pw"/>
                             <constraint firstItem="7Pe-1g-yTV" firstAttribute="centerX" secondItem="JY2-Ac-NWm" secondAttribute="centerX" id="2K7-Yv-Yom"/>
                             <constraint firstItem="5hY-GF-1e4" firstAttribute="centerX" secondItem="JY2-Ac-NWm" secondAttribute="centerX" id="4K3-ro-y1g"/>
                             <constraint firstItem="JY2-Ac-NWm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="55s-cG-LYe"/>
                             <constraint firstItem="xQd-eo-U5a" firstAttribute="centerX" secondItem="JY2-Ac-NWm" secondAttribute="centerX" id="87b-5Z-MbF"/>
+                            <constraint firstItem="5hY-GF-1e4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9y3-hI-VYX"/>
                             <constraint firstItem="5hY-GF-1e4" firstAttribute="top" secondItem="JY2-Ac-NWm" secondAttribute="bottom" constant="8" id="Ucq-Yi-mxS"/>
                             <constraint firstItem="JY2-Ac-NWm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Vd1-ly-jSy"/>
                             <constraint firstItem="xQd-eo-U5a" firstAttribute="top" secondItem="Baq-dc-q56" secondAttribute="bottom" constant="8" id="dXT-Ch-Sb4"/>
