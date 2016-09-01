@@ -145,7 +145,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Car-tc-zFi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-881" y="-719"/>
+            <point key="canvasLocation" x="-871" y="-371"/>
         </scene>
     </scenes>
     <resources>
