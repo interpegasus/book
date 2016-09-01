@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         let question: String = questions[currenQuestionIndex]
         questionLabel.text = question
         answerLabel.text = "?"
+        animateLabelTransition()
     }
     
     @IBAction func showAnswer(sender: AnyObject){
@@ -41,4 +42,29 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         questionLabel.text = questions[currenQuestionIndex]
     }
+    
+    func animateLabelTransition() {
+        let animationClosure = { () -> Void in
+            self.questionLabel.alpha = 1
+            self.answerLabel.alpha = 1
+            self.questionLabel.highlighted = true
+            let myColor = UIColor.init(red: 1, green: 0.7, blue: 0.8, alpha: 0.9)
+            self.questionLabel.highlightedTextColor = myColor
+            
+            let myNewColor = UIColor.init(red: 0.7, green: 0.7, blue: 0.7, alpha: 0.9)
+            self.answerLabel.highlighted = true
+            self.answerLabel.highlightedTextColor = myNewColor
+        }
+        UIView.animateWithDuration(0.5, animations: animationClosure)
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Set the label's initial alpha
+        questionLabel.alpha = 0
+        answerLabel.alpha = 0
+        
+    }
+    
 }
