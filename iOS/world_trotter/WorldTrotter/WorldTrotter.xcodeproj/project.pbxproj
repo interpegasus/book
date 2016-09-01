@@ -22,6 +22,7 @@
 /* Begin PBXFileReference section */
 		6900FBA21D7493C900C1199D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		6900FBA31D74945900C1199D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		6911D1E81D7867C7000D15F3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		6951D3621D4D5D3D0064E162 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		698BFB0E1D749AD80092EF00 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = "../../../book solutions/7 - Localization/Solutions/WorldTrotter/WorldTrotter/es.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		699718111D471B020041E003 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +127,7 @@
 				en,
 				Base,
 				es,
+				fr,
 			);
 			mainGroup = 699718081D471B020041E003;
 			productRefGroup = 699718121D471B020041E003 /* Products */;
@@ -180,6 +182,7 @@
 				699718191D471B020041E003 /* Base */,
 				6900FBA21D7493C900C1199D /* en */,
 				6900FBA31D74945900C1199D /* es */,
+				6911D1E81D7867C7000D15F3 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
