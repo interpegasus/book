@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     var currenQuestionIndex: Int = 0
     
-    @IBAction func showNextQuestion(sender: AnyObject){
+    @IBAction func showNextQuestion(_ sender: AnyObject){
         currenQuestionIndex += 1
         if currenQuestionIndex == questions.count{
             currenQuestionIndex = 0
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         animateLabelTransition()
     }
     
-    @IBAction func showAnswer(sender: AnyObject){
+    @IBAction func showAnswer(_ sender: AnyObject){
         let answer: String = answers[currenQuestionIndex]
         answerLabel.text = answer
     }
@@ -47,18 +47,18 @@ class ViewController: UIViewController {
         let animationClosure = { () -> Void in
             self.questionLabel.alpha = 1
             self.answerLabel.alpha = 1
-            self.questionLabel.highlighted = true
+            self.questionLabel.isHighlighted = true
             let myColor = UIColor.init(red: 1, green: 0.7, blue: 0.8, alpha: 0.9)
             self.questionLabel.highlightedTextColor = myColor
             
             let myNewColor = UIColor.init(red: 0.7, green: 0.7, blue: 0.7, alpha: 0.9)
-            self.answerLabel.highlighted = true
+            self.answerLabel.isHighlighted = true
             self.answerLabel.highlightedTextColor = myNewColor
         }
-        UIView.animateWithDuration(0.5, animations: animationClosure)
+        UIView.animate(withDuration: 0.5, animations: animationClosure)
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Set the label's initial alpha
