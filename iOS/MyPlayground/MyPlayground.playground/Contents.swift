@@ -58,12 +58,6 @@ myReading2 = 2
 myReading3 = 3
 
 
-if let r1 = myReading1,r2=myReading2,r3=myReading3{
-    let myAverageReading = ( r1 + r2 + r3 )/3
-} else {
-    let errorStr = "Error nil "
-}
-
 // Dictionaries
 
 
@@ -80,13 +74,59 @@ if let nameAgeConst = nameAge[13] {
 
 // Loops
 
-var coubnter = 5
-var i = 0
-for (i = 0 ; i <  coubnter; i += 1){
-    let newStr = i
+let myNumberArray = [Int]()
+let emptyString = String()
+var optionalFloat:Float?
+var optionalString:String?
+
+
+var range = 0..<9
+for i in range {
+    print(i)
 }
 
 
+class Record: Hashable {
+    var uid: Int
+    var name: String
+    var hashValue: Int {
+        return self.uid
+    }
+    
+    init(uid: Int, name: String) {
+        self.uid = uid
+        self.name = name
+    }
+}
+
+func ==(lhs: Record, rhs: Record) -> Bool {
+    return lhs.uid == rhs.uid
+}
+
+var records = Set<Record>()
+var letters = Set<Character>()
+
+
+// Enum
+
+enum CarType {
+    case Ferrari
+    case Lamborghini
+    case Mercedez
+    case Audi
+}
+
+let myAudi = CarType.Audi
+
+let name: String
+switch myAudi {
+    case .Ferrari:
+        name = "my Ferrari"
+    case .Audi:
+        name = "my Audi"
+    default:
+        name = "my A4"
+}
 
 
 
