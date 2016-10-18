@@ -12,12 +12,12 @@ android:gravity="center"
         android:text="Android App"
         android:id="@string/label_text"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.33" />
+        android:layout_weight="0.08" />
 
     <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="0dp"
-    android:text="@string/question_text"
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="0.33"
         android:layout_gravity="center_horizontal"
         android:elegantTextHeight="true"
@@ -29,7 +29,7 @@ android:gravity="center"
         android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="0.33">
+        android:layout_weight="0.12">
 
         <Button
             android:layout_width="wrap_content"
@@ -43,6 +43,19 @@ android:gravity="center"
             android:layout_height="wrap_content"
             android:text="@string/false_button"
             android:id="@+id/false_button"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.13">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_button"
+            android:id="@+id/next_button"
             android:layout_gravity="center_horizontal" />
     </LinearLayout>
 </LinearLayout>

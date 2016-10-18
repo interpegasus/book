@@ -33,7 +33,7 @@
         jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.3"
-        sha1="c43ebc2e8dd7a3e61d868c1e381928bd8e979f8d">
+        sha1="070dedad12e038dec7e4c438324f8c2bced266ec">
         <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_57127ff781d474bf2739f2fcf9a2be955a6b2fe7/classes.dex" />
     </item>
     <item
@@ -103,7 +103,7 @@
         jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.3"
-        sha1="26339252acdc2e63ec3a46dde842d654ddf64276">
+        sha1="e44cce10f09ff85a1ce7017e4971942564f69f41">
         <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4e89e15c7a6dc54acf8d15c764360f4f948dd114/classes.dex" />
     </item>
     <item

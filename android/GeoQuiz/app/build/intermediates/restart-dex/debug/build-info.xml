@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64"
-    api-level="24"
-    density="560dpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
     format="7"
-    timestamp="2522876082038"
+    timestamp="58696485182935"
     token="7151823585251405482" >
 
     <task
         name="javac"
-        duration="1940" />
+        duration="485" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="164" />
+        duration="122" />
     <task
         name="verifier"
-        duration="16" />
+        duration="11" />
 
     <artifact
         location="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="2522876082038" >
+    <build timestamp="58696485182935" >
         <artifact
             location="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
