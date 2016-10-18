@@ -4,7 +4,6 @@
 //  Created by Arturo Gomez on 10/17/16.
 //  Copyright © 2016 Arturo Gomez. All rights reserved.
 //
-//
 
 import UIKit
 
