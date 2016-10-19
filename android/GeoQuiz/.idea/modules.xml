@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///opt/interpegasus/book/android/GeoQuiz/GeoQuiz.iml" filepath="/opt/interpegasus/book/android/GeoQuiz/GeoQuiz.iml" />
+      <module fileurl="file:///opt/interpegasus/book/android/GeoQuiz/app/app.iml" filepath="/opt/interpegasus/book/android/GeoQuiz/app/app.iml" />
+    </modules>
+  </component>
+</project>
