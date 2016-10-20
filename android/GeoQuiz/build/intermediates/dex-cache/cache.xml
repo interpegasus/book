@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_63046232f5da859b93e37c9e613b3b1bbfdadf54/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_3de06d7c8a17aebcb2786d0efbd9b8de7f638b99/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_26dcf6221c807ac06fa7e2e976359929736f6b9e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_4337e145cf98e643033c0dfaa558f510bd40bff1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="070dedad12e038dec7e4c438324f8c2bced266ec">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_57127ff781d474bf2739f2fcf9a2be955a6b2fe7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_30daf7cfc18c358f0f8b0d65d152a422d6407c55/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_fffb3c1191aef84c482a685bc5d12b230fc0384c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9cbe8860478b168baec0ba7fb812a0c0ebfee81d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_c886deb61b7da58b3682d14092a8ecbd46a3a206/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_2f9d5678a0a9ed7ee5f244e7a416a3456e566e76/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_f700cb93c3eeeed52c0f2e524247371814673182/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_446fedcfc3e71f9b88b9f58140656b5bee8c5f34/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_4ea5d52f695d5cc815293407f46b9ce3d185de96/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_e94be59322de310cdd81c49194a769f96d3bd6f6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="e44cce10f09ff85a1ce7017e4971942564f69f41">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4e89e15c7a6dc54acf8d15c764360f4f948dd114/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_6447e3466cc7016d8be04a2279a1d264f1fb43a1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_968b7affe6dc74d4aeeff688f004458686c736a1/classes.dex" />
+    </item>
+
+</items>

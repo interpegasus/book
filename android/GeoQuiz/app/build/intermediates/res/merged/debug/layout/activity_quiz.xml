@@ -1,65 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:weightSum="1">
+android:layout_height="match_parent"
+android:gravity="center"
+    android:weightSum="1"
+    android:orientation="vertical">
 
     <TextView
-        android:text="TextView"
-        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:id="@+id/appLabel"
-        android:layout_weight="0.06"
-        tools:text="The Geo Quiz App"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="24sp" />
+        android:layout_height="0dp"
+        android:text="Android App"
+        android:id="@string/label_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08" />
 
     <TextView
         android:id="@+id/question_text_view"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="24dp"/>
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:layout_gravity="center_horizontal"
+        android:elegantTextHeight="true"
+        android:typeface="serif"
+        android:visibility="visible"
+        android:textAlignment="center" />
 
     <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="0dp"
+        android:layout_weight="0.12">
 
         <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/true_button"
             android:id="@+id/true_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/true_button"/>
+            android:layout_gravity="center_horizontal" />
 
         <Button
-            android:id="@+id/false_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/false_button"/>
-
+            android:text="@string/false_button"
+            android:id="@+id/false_button"
+            android:layout_gravity="center_horizontal" />
     </LinearLayout>
 
     <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
+        android:layout_height="0dp"
+        android:layout_weight="0.13">
         <Button
-            android:id="@+id/left_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/arrow_left"
-            android:text="@string/left_button"
-            android:drawablePadding="12dp"/>
-        <Button
-            android:id="@+id/next_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/next_button"
-            android:drawableRight="@drawable/arrow_right"
-            android:drawablePadding="12dp"/>
-
+            android:id="@+id/next_button"
+            android:layout_gravity="center_horizontal" />
     </LinearLayout>
 </LinearLayout>
