@@ -26,39 +26,39 @@ class MapViewController : UIViewController {
 
         let segmentedControl =
             UISegmentedControl(items: [standardString, satelliteString, hybridString])
-        segmentedControl.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.5)
+        segmentedControl.backgroundColor = UIColor.white.withAlphaComponent(0.5)
         segmentedControl.selectedSegmentIndex = 0
         
-        segmentedControl.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.5)
+        segmentedControl.backgroundColor = UIColor.white.withAlphaComponent(0.5)
         segmentedControl.selectedSegmentIndex = 0
         segmentedControl.addTarget(self,
                                    action: #selector(MapViewController.mapTypeChanged(_:)),
-                                   forControlEvents: .ValueChanged)
+                                   for: .valueChanged)
         
         segmentedControl.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(segmentedControl)
         
         let topConstraint =
-            segmentedControl.topAnchor.constraintEqualToAnchor(topLayoutGuide.bottomAnchor, constant: 12)
+            segmentedControl.topAnchor.constraint(equalTo: topLayoutGuide.bottomAnchor, constant: 12)
         let margins = view.layoutMarginsGuide
         let leadingConstraint =
-            segmentedControl.leadingAnchor.constraintEqualToAnchor(margins.leadingAnchor)
+            segmentedControl.leadingAnchor.constraint(equalTo: margins.leadingAnchor)
         let trailingConstraint =
-            segmentedControl.trailingAnchor.constraintEqualToAnchor(margins.trailingAnchor)
+            segmentedControl.trailingAnchor.constraint(equalTo: margins.trailingAnchor)
         
-        topConstraint.active = true
-        leadingConstraint.active = true
-        trailingConstraint.active = true
+        topConstraint.isActive = true
+        leadingConstraint.isActive = true
+        trailingConstraint.isActive = true
     }
     
-    func mapTypeChanged(segControl: UISegmentedControl) {
+    func mapTypeChanged(_ segControl: UISegmentedControl) {
         switch segControl.selectedSegmentIndex {
         case 0:
-            mapView.mapType = .Standard
+            mapView.mapType = .standard
         case 1:
-            mapView.mapType = .Hybrid
+            mapView.mapType = .hybrid
         case 2:
-            mapView.mapType = .Satellite
+            mapView.mapType = .satellite
         default:
             break
         }

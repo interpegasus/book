@@ -12,14 +12,14 @@ class ConversionViewConmtroler: UIViewController,UITextFieldDelegate {
     @IBOutlet var celsiusLabel:UILabel!
     @IBOutlet var textField:UITextField!
     
-    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
-        let currentLocale = NSLocale.currentLocale()
+        let currentLocale = Locale.current
         let decimalSeparator =
-            currentLocale.objectForKey(NSLocaleDecimalSeparator) as! String
+            (currentLocale as NSLocale).object(forKey: NSLocale.Key.decimalSeparator) as! String
         
-        let existingTextHasDecimalSeparator = textField.text?.rangeOfString(decimalSeparator)
-        let replacementTextHasDecimalSeparator = string.rangeOfString(decimalSeparator)
+        let existingTextHasDecimalSeparator = textField.text?.range(of: decimalSeparator)
+        let replacementTextHasDecimalSeparator = string.range(of: decimalSeparator)
         
         if existingTextHasDecimalSeparator != nil && replacementTextHasDecimalSeparator != nil {
             return false
@@ -44,9 +44,9 @@ class ConversionViewConmtroler: UIViewController,UITextFieldDelegate {
         }
     }
     
-    let numberFortmatter: NSNumberFormatter = {
-        let nf = NSNumberFormatter()
-        nf.numberStyle = .DecimalStyle
+    let numberFortmatter: NumberFormatter = {
+        let nf = NumberFormatter()
+        nf.numberStyle = .decimal
         nf.minimumFractionDigits = 0
         nf.maximumFractionDigits = 1
         nf.alwaysShowsDecimalSeparator = true
@@ -55,15 +55,14 @@ class ConversionViewConmtroler: UIViewController,UITextFieldDelegate {
     
     func updateCelsiusLabel() {
         if let value = celsiusValue {
-            //celsiusLabel.text = "\(value)"
-            celsiusLabel.text = numberFortmatter.stringFromNumber(value)
+            celsiusLabel.text = "\(value)"
         } else {
             celsiusLabel.text = "???"
         }
     }
     
-    @IBAction func FareheithTextChanged(textField: UITextField) {
-        if let text = textField.text, let number = numberFortmatter.numberFromString(text) {
+    @IBAction func FareheithTextChanged(_ textField: UITextField) {
+        if let text = textField.text, let number = numberFortmatter.number(from: text) {
             farenheithValue = number.doubleValue
         }
         else {
@@ -72,7 +71,7 @@ class ConversionViewConmtroler: UIViewController,UITextFieldDelegate {
     }
     
     
-    @IBAction func dismissKeyboard(sender: AnyObject){
+    @IBAction func dismissKeyboard(_ sender: AnyObject){
         textField.resignFirstResponder()
     }
     
@@ -81,19 +80,21 @@ class ConversionViewConmtroler: UIViewController,UITextFieldDelegate {
         print("Conversion VC")
     }
     
-    override func viewWillAppear(animated: Bool) {
-        let date = NSDate()
-        let calendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)
-        let components = calendar?.components(.Hour, fromDate: date)
-        let currentHour = components!.hour
+    override func viewWillAppear(_ animated: Bool) {
+        let date = Date()
+        let calendar = Calendar(identifier: Calendar.Identifier.gregorian)
+        let components = (calendar as NSCalendar?)?.components(.hour, from: date)
+        
         let lightColor = UIColor.init(red:0.29,  green:0.53,  blue:0.91, alpha:0.7)
         let darkColor = UIColor.init(red:0.04 ,  green:0.16 ,  blue:0.36 , alpha:0.9)
-        switch currentHour {
-        case 0...6, 18...23:
-            view.backgroundColor = darkColor
-            break
-        default:
-            view.backgroundColor = lightColor
+        if let currentHour = components?.hour {
+            switch currentHour {
+            case 0...6, 18...23:
+                view.backgroundColor = darkColor
+                break
+            default:
+                view.backgroundColor = lightColor
+            }
         }
     }
 

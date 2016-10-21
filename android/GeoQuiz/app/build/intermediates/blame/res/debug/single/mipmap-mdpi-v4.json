@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/opt/interpegasus/book/android/GeoQuiz/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/opt/interpegasus/book/android/GeoQuiz/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
         "source": "/Users/arturo/interpegasus/book/android/GeoQuiz/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }
