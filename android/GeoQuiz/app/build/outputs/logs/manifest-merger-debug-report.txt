@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-20:12
+ADDED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-21:12
 	package
 		ADDED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.x
 		INJECTED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml
 		INJECTED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml
 application
-ADDED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml:5:5-18:19
+ADDED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml:5:5-19:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] /opt/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] /opt/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] /opt/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:25:5-20
@@ -61,6 +61,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml:15:17-77
 	android:name
 		ADDED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml:15:27-74
+activity#com.interpegasus.geoquiz.HintActivity
+ADDED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml:18:9-59
+	android:name
+		ADDED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml:18:19-47
 uses-sdk
 INJECTED from /opt/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.1] /opt/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:21:5-23:78
