@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9x4-AU-bDX">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Conversion View Controller-->
+        <!--Temperature-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ConversionViewController" customModule="WT2" customModuleProvider="target" sceneMemberID="viewController">
@@ -38,13 +38,19 @@
                                 <color key="textColor" red="1" green="0.25328761339187622" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="value" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ha1-uE-pzw">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="center" misplaced="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="value" textAlignment="center" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="Ha1-uE-pzw">
+                                <frame key="frameInset" minX="116" minY="28" width="143" height="30"/>
                                 <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="alert" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="FareheithTextChangedWithTextField:" destination="BYZ-38-t0r" eventType="editingChanged" id="fNN-aL-Kbl"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="pZ7-8m-VrJ"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="FHG-Sb-rtM" firstAttribute="centerX" secondItem="j0d-eR-1Jv" secondAttribute="centerX" id="6KW-qo-hLx"/>
                             <constraint firstItem="BN0-aF-osE" firstAttribute="centerX" secondItem="j0d-eR-1Jv" secondAttribute="centerX" id="81s-Up-tSW"/>
@@ -57,11 +63,71 @@
                             <constraint firstItem="FHG-Sb-rtM" firstAttribute="top" secondItem="wyD-Fe-ZAr" secondAttribute="bottom" constant="16" id="gRG-ee-I0T"/>
                             <constraint firstItem="j0d-eR-1Jv" firstAttribute="top" secondItem="Ha1-uE-pzw" secondAttribute="bottom" constant="16" id="npd-Y3-Uly"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ZLa-Gq-jH6" appends="YES" id="Glu-7J-7oy"/>
+                        </connections>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Temperature" selectedImage="ConvertIcon" id="uVu-UM-N8g"/>
+                    <connections>
+                        <outlet property="celsiusLabel" destination="FHG-Sb-rtM" id="IqI-8h-2an"/>
+                        <outlet property="textField" destination="Ha1-uE-pzw" id="XXc-F1-dRd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ZLa-Gq-jH6">
+                    <connections>
+                        <action selector="dismissKeyboardWithSender:" destination="BYZ-38-t0r" id="7bz-8d-9hr"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="112.8" y="158.77061469265368"/>
+            <point key="canvasLocation" x="-647" y="401"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="EAd-R7-UNT">
+            <objects>
+                <viewController id="9x4-AU-bDX" customClass="MapViewController" customModule="WT2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Eqq-x2-5m9"/>
+                        <viewControllerLayoutGuide type="bottom" id="R33-bD-lRv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VOn-6n-R09">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cfH-xF-B4W">
+                                <frame key="frameInset" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" selectedImage="MapIcon" id="ND5-7N-wzZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fxh-uw-mYA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="31" y="-604"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GjN-he-dnA">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="s0Y-Aq-PAa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="hzh-TA-qQC">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="dtd-hY-eqf"/>
+                        <segue destination="9x4-AU-bDX" kind="relationship" relationship="viewControllers" id="i1t-uZ-2qW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gAH-II-8nv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-648" y="-604"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ConvertIcon" width="48" height="32"/>
+        <image name="MapIcon" width="48" height="32"/>
+    </resources>
 </document>
