@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/opt/interpegasus/book/android/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xhdpi/arrow_right.png",
+        "source": "/opt/interpegasus/book/android/GeoQuiz/app/src/main/res/drawable-xhdpi/arrow_right.png"
+    },
+    {
+        "merged": "/opt/interpegasus/book/android/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xhdpi/arrow_left.png",
+        "source": "/opt/interpegasus/book/android/GeoQuiz/app/src/main/res/drawable-xhdpi/arrow_left.png"
+    }
+]

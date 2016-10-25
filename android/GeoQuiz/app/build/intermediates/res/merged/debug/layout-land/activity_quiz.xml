@@ -3,7 +3,8 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:gravity="center"
-              android:orientation="vertical">
+              android:orientation="vertical"
+    android:id="@+id/hint_button">
     <TextView
         android:text="Android App"
         android:id="@string/label_text"
@@ -62,5 +63,11 @@
         android:drawableRight="@drawable/arrow_right"
         android:drawablePadding="4dp"
         android:layout_gravity="right|bottom" />
+
+    <Button
+        android:text="Hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3" />
 
 </FrameLayout>
