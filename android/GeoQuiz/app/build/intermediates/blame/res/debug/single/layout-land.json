@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/opt/interpegasus/book/android/GeoQuiz/app/build/intermediates/res/merged/debug/layout-land/activity_quiz.xml",
-        "source": "/opt/interpegasus/book/android/GeoQuiz/app/src/main/res/layout-land/activity_quiz.xml"
+        "merged": "/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/res/merged/debug/layout-land/activity_quiz.xml",
+        "source": "/Users/arturo/interpegasus/book/android/GeoQuiz/app/src/main/res/layout-land/activity_quiz.xml"
     },
     {
-        "merged": "/opt/interpegasus/book/android/GeoQuiz/app/build/intermediates/res/merged/debug/layout-land/layout.xml",
-        "source": "/opt/interpegasus/book/android/GeoQuiz/app/src/main/res/layout-land/layout.xml"
+        "merged": "/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/res/merged/debug/layout-land/layout.xml",
+        "source": "/Users/arturo/interpegasus/book/android/GeoQuiz/app/src/main/res/layout-land/layout.xml"
     }
 ]
