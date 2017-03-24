@@ -4,7 +4,7 @@
     android:id="@+id/activity_hint"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.interpegasus.geoquiz.HintActivity">
+    tools:context="com.interpegasus.geoquiz3.HintActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -18,8 +18,6 @@
             android:text="Show Answer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/answer_text_view"
-            android:layout_centerHorizontal="true"
             android:layout_marginTop="41dp"
             android:id="@+id/show_answer_button" />
 
@@ -27,16 +25,12 @@
             android:text="Are you sure??"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:id="@+id/question_text"
             android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/question_text"
-            android:layout_alignLeft="@+id/question_text"
-            android:layout_alignStart="@+id/question_text"
             android:layout_marginTop="45dp"
             android:id="@+id/answer_text_view"
             android:textAlignment="center" />
