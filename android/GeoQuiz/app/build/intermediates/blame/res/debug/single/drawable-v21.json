@@ -1,14 +1,14 @@
 [
     {
         "merged": "/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-v21/abc_btn_colored_material.xml"
+        "source": "/Users/arturo/.android/build-cache/da692eebcaa529fbc377a1397bdc052857c6a1b1/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
         "merged": "/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "source": "/Users/arturo/.android/build-cache/da692eebcaa529fbc377a1397bdc052857c6a1b1/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-v21/abc_edit_text_material.xml"
+        "source": "/Users/arturo/.android/build-cache/da692eebcaa529fbc377a1397bdc052857c6a1b1/output/res/drawable-v21/abc_edit_text_material.xml"
     }
 ]

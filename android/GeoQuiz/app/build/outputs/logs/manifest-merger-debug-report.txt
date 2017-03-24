@@ -15,15 +15,15 @@ ADDED from /Users/arturo/interpegasus/book/android/GeoQuiz/app/src/main/AndroidM
 		INJECTED from /Users/arturo/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml
 application
 ADDED from /Users/arturo/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml:5:5-19:19
-MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/arturo/.android/build-cache/da692eebcaa529fbc377a1397bdc052857c6a1b1/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] /Users/arturo/.android/build-cache/8a2de94780b3a34951b5cdeddbca6c9b2a38959a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/arturo/.android/build-cache/ec766df7a0cd29b77a5d7a07c8134e28ad9bffbc/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/arturo/.android/build-cache/774cf30ece8354b925e1060a6a760b074c6797e9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/arturo/.android/build-cache/82928351193af3089f640fcb373a98973f2aacc8/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/arturo/.android/build-cache/4284b5730440a21c2e29298ed433009807794d87/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/arturo/.android/build-cache/52c1d93561f79bece28c4350759e619d3df07428/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/arturo/.android/build-cache/3a102d6e1037150763e5436620942059de20dab6/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.1] /Users/arturo/.android/build-cache/e236c9cb2cc7106f02a32c8f412f25f757beea48/output/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /Users/arturo/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -54,17 +54,17 @@ ADDED from /Users/arturo/interpegasus/book/android/GeoQuiz/app/src/main/AndroidM
 		ADDED from /Users/arturo/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml:18:19-47
 uses-sdk
 INJECTED from /Users/arturo/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-compat:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-fragment:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/arturo/.android/build-cache/da692eebcaa529fbc377a1397bdc052857c6a1b1/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] /Users/arturo/.android/build-cache/8a2de94780b3a34951b5cdeddbca6c9b2a38959a/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/arturo/.android/build-cache/ec766df7a0cd29b77a5d7a07c8134e28ad9bffbc/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/arturo/.android/build-cache/774cf30ece8354b925e1060a6a760b074c6797e9/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/arturo/.android/build-cache/82928351193af3089f640fcb373a98973f2aacc8/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/arturo/.android/build-cache/4284b5730440a21c2e29298ed433009807794d87/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/arturo/.android/build-cache/52c1d93561f79bece28c4350759e619d3df07428/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/arturo/.android/build-cache/3a102d6e1037150763e5436620942059de20dab6/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.1] /Users/arturo/.android/build-cache/e236c9cb2cc7106f02a32c8f412f25f757beea48/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.1] /Users/arturo/interpegasus/book/android/GeoQuiz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.1] /Users/arturo/.android/build-cache/da692eebcaa529fbc377a1397bdc052857c6a1b1/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /Users/arturo/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/arturo/interpegasus/book/android/GeoQuiz/app/src/main/AndroidManifest.xml

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.interpegasus.geoquiz.HintActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="Show Answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/answer_text_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            android:id="@+id/show_answer_button" />
+
+        <TextView
+            android:text="Are you sure??"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/question_text"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/question_text"
+            android:layout_alignLeft="@+id/question_text"
+            android:layout_alignStart="@+id/question_text"
+            android:layout_marginTop="45dp"
+            android:id="@+id/answer_text_view"
+            android:textAlignment="center" />
+    </LinearLayout>
+</RelativeLayout>
