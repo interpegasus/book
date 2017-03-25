@@ -45,6 +45,7 @@ public class HintActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hint);
         String apiVersion = (String)"API Version:" + Integer.toString(Build.VERSION.SDK_INT);
+        mApiVersion = (TextView)findViewById(R.id.apiVersion);
         mApiVersion.setText(apiVersion);
         mAnswerIsTrue = getIntent().getBooleanExtra(EXTRA_ANSWER_IS_TRUE, false);
         mAnswerTextView = (TextView)findViewById(R.id.answer_text_view);
