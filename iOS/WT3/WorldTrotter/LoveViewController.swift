@@ -8,17 +8,34 @@
 
 import UIKit
 
-class LoveViewController: UIViewController {
-    
+class LoveViewController: UIViewController  {
+    @IBOutlet var loveLabel: UILabel!
+    @IBOutlet var lovreButton: UIButton!
     
     override func viewDidLoad(){
         super.viewDidLoad()
+        print("Love ViewController loaded its view")
         let heart = UIBezierPath(heartIn: CGRect(x:160,y:240,width:100,height:150));
         let firstView = UIView(frame: CGRect(x:160,y:240,width:100,height:150))
         firstView.backgroundColor = UIColor.red
         view.addSubview(firstView);
     }
+    
+    @IBAction func loveButtonAction(_ sender: AnyObject) {
+        let loveString :String? = "Love"
+        loveLabel.text = loveString
+    }
 
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        // Set the label's initial alpha
+        loveLabel.alpha = 0
+    }
+    
 }
 
 

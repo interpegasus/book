@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="onh-O0-YTf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="onh-O0-YTf">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,9 +20,34 @@
                     <view key="view" contentMode="scaleToFill" id="nXF-Ur-aW8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8On-ge-4ig">
+                                <rect key="frame" x="164" y="96" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="loveButtonAction:" destination="1ux-Xq-FdZ" eventType="touchUpInside" id="FR7-od-PkJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nC-hZ-YjF">
+                                <rect key="frame" x="166" y="202" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8On-ge-4ig" firstAttribute="top" secondItem="zZG-1w-ktl" secondAttribute="bottom" constant="76" id="AzF-gh-mEj"/>
+                            <constraint firstItem="8nC-hZ-YjF" firstAttribute="top" secondItem="8On-ge-4ig" secondAttribute="bottom" constant="76" id="E4D-2X-2tI"/>
+                            <constraint firstItem="8On-ge-4ig" firstAttribute="centerX" secondItem="8nC-hZ-YjF" secondAttribute="centerX" id="GQ7-3B-Zgi"/>
+                            <constraint firstItem="8On-ge-4ig" firstAttribute="centerX" secondItem="nXF-Ur-aW8" secondAttribute="centerX" id="TRT-At-eE6"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Love" selectedImage="ConvertIcon" id="G4Y-Ly-hVG"/>
+                    <tabBarItem key="tabBarItem" title="Love" image="ConvertIcon" selectedImage="ConvertIcon" id="G4Y-Ly-hVG"/>
+                    <connections>
+                        <outlet property="loveLabel" destination="8nC-hZ-YjF" id="xUT-H2-vtY"/>
+                        <outlet property="lovreButton" destination="8On-ge-4ig" id="THt-TJ-udS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aEL-V0-J5y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
