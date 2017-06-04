@@ -23,14 +23,7 @@ public class Unique {
 
 	public boolean uniqueOn(){
 		for(int i = 0; i < this.charArray.length; i++) {
-			for(int j = 0; j < this.charArray.length; j++) {
-				if (i == j){
-					continue;
-				}
-				if (this.charArray[i] == this.charArray[j] ){
-					return false;
-				}
-			}	
+			
 		}
 		return true;
 	}
