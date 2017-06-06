@@ -1,4 +1,7 @@
-import java.util.Set;
+import java.util.HashMap;
+import java.util.HashSet;
+
+
 public class Unique {	
 	public String text;
 	public int length;	
@@ -16,14 +19,20 @@ public class Unique {
 	}
 
 	public boolean unique() {
-		// Set<T> mySet = new HashSet<T>(Arrays.asList(this.charArray));
-		// return this.charArray.length() == mySet.length();
-		return false;
+		HashSet<Character> mySet = new HashSet<Character>();
+		for (char c : this.charArray) {
+			mySet.add (c);
+		}
+		return this.charArray.length == mySet.size();
 	}
 
 	public boolean uniqueOn(){
+		HashMap<Character,Integer> myMap = new HashMap<Character,Integer>();
 		for(int i = 0; i < this.charArray.length; i++) {
-			
+			if (myMap.get((this.charArray[i])) != null) {
+				return false;
+			}
+			myMap.put(this.charArray[i],1);
 		}
 		return true;
 	}
@@ -47,5 +56,9 @@ public class Unique {
 		Unique uniqueObject = new Unique(text);
 		System.out.println("Calling uniqueOnSquare on:\n" + text);
 		System.out.println(uniqueObject.uniqueOnSquare());
+		System.out.println("Calling unique on:\n" + text);
+		System.out.println(uniqueObject.unique());
+		System.out.println("Calling uniqueOn on:\n" + text);
+		System.out.println(uniqueObject.uniqueOn());
 	}
 }
