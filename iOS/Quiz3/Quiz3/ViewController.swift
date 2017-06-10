@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var questionLabel: UILabel!
     @IBOutlet var answerLabel: UILabel!
+    @IBOutlet var copyLabel: UILabel!
     
     let questions: [String] = ["Fropm what is cognac made?",
                                "What is 7+7",
@@ -45,6 +46,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        copyLabel.text = String("Quiz App V1")
         questionLabel.text = questions[currenQuestionIndex]
         // Do any additional setup after loading the view, typically from a nib.
     }
