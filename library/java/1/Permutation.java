@@ -1,6 +1,4 @@
-import java.util.HashMap;
-import java.util.HashSet;
-
+import java.util.Arrays;
 
 public class Permutation {	
 	public String string1;
@@ -16,43 +14,30 @@ public class Permutation {
 		this.string2 = txt2;
 	}
 
-	public boolean isPermutation() {	
-		return this.charArray.length == mySet.size();
-	}
-
-	public boolean uniqueOn(){
-		HashMap<Character,Integer> myMap = new HashMap<Character,Integer>();
-		for(int i = 0; i < this.charArray.length; i++) {
-			if (myMap.get((this.charArray[i])) != null) {
-				return false;
-			}
-			myMap.put(this.charArray[i],1);
+	public boolean isPermutation(boolean caseSensitive) {			
+		if (this.string1.length() != this.string1.length()) {
+			return false;
 		}
-		return true;
-	}
-
-	public boolean uniqueOnSquare(){
-		for(int i = 0; i < this.charArray.length; i++) {
-			for(int j = 0; j < this.charArray.length; j++) {
-				if (i == j){
-					continue;
-				}
-				if (this.charArray[i] == this.charArray[j] ){
-					return false;
-				}
-			}	
+		char[] a1 = null;
+		char[] a2 = null;
+		if (caseSensitive) {
+			a1 = this.string1.toCharArray();
+			a2 =  this.string2.toCharArray();
+		} else {
+			a1 = this.string1.toUpperCase().toCharArray();
+			a2 =  this.string2.toUpperCase().toCharArray();			
 		}
-		return true;
+		Arrays.sort(a1);
+		Arrays.sort(a2);		
+		System.out.println("Sorted Strings: \n" + String.valueOf(a1) + " and " + String.valueOf(a2));
+		return (String.valueOf(a1).equals(String.valueOf(a2)));
 	}
 
 	public static void main(String[] args) {
-		String text = "This Rulez";
-		Unique uniqueObject = new Unique(text);
-		System.out.println("Calling uniqueOnSquare on:\n" + text);
-		System.out.println(uniqueObject.uniqueOnSquare());
-		System.out.println("Calling unique on:\n" + text);
-		System.out.println(uniqueObject.unique());
-		System.out.println("Calling uniqueOn on:\n" + text);
-		System.out.println(uniqueObject.uniqueOn());
+		String text1 = "Arturo Gomez Mantilla";
+		String text2 = "Cindy Cruse Ratcliff ";
+		Permutation permutation = new Permutation(text1,text2);	
+		System.out.println("Calling isPermutation on: " + text1 + " and " + text2);	
+		System.out.println(permutation.isPermutation(false));
 	}
 }
