@@ -7,10 +7,10 @@ public class Unique {
 	public int length;	
 	public char[] charArray;
 
-	// for while switch
-	// if else
-	// boolean, char, string, float, int, byte
-	// array, list, set, hash, tree, graph 
+	// Solution1: check alphabet size ASCii 256 vs 128
+	// if string longer than alphabet return false
+	// Use a bolean array and check crcter is set
+	// use a hash map
 
 	public Unique(String text) {
 		this.text = text;
