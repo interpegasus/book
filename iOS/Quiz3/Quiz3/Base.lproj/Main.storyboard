@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -47,21 +47,30 @@
                                     <action selector="showNextQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oeV-3p-ooC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Quiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D74-Zy-5fB">
+                                <rect key="frame" x="147" y="597" width="81" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="TCs-0U-7KA" firstAttribute="centerX" secondItem="Wr5-r7-8kO" secondAttribute="centerX" id="47l-2I-5vi"/>
-                            <constraint firstItem="49X-Rg-yFq" firstAttribute="top" secondItem="Wr5-r7-8kO" secondAttribute="bottom" constant="87" id="9JR-O3-ro8"/>
-                            <constraint firstItem="fzK-kq-GY0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="27" id="K2g-OE-ZSi"/>
-                            <constraint firstItem="49X-Rg-yFq" firstAttribute="centerX" secondItem="Wr5-r7-8kO" secondAttribute="centerX" id="SHI-Ej-yYX"/>
-                            <constraint firstItem="TCs-0U-7KA" firstAttribute="top" secondItem="49X-Rg-yFq" secondAttribute="bottom" constant="27" id="Sxu-sI-UVd"/>
-                            <constraint firstItem="fzK-kq-GY0" firstAttribute="centerX" secondItem="Wr5-r7-8kO" secondAttribute="centerX" id="ZGl-1b-dhl"/>
-                            <constraint firstItem="fzK-kq-GY0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="egf-iB-WfZ"/>
-                            <constraint firstItem="Wr5-r7-8kO" firstAttribute="top" secondItem="fzK-kq-GY0" secondAttribute="bottom" constant="23" id="u6l-7c-jx2"/>
+                            <constraint firstItem="D74-Zy-5fB" firstAttribute="centerX" secondItem="Wr5-r7-8kO" secondAttribute="centerX" id="4Nj-NA-rgg"/>
+                            <constraint firstItem="fzK-kq-GY0" firstAttribute="centerX" secondItem="Wr5-r7-8kO" secondAttribute="centerX" id="9h0-R6-bte"/>
+                            <constraint firstItem="fzK-kq-GY0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="27" id="F6N-tI-YKr"/>
+                            <constraint firstItem="Wr5-r7-8kO" firstAttribute="top" secondItem="fzK-kq-GY0" secondAttribute="bottom" constant="23" id="I66-3D-FD2"/>
+                            <constraint firstItem="fzK-kq-GY0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NJP-Qd-S45"/>
+                            <constraint firstItem="D74-Zy-5fB" firstAttribute="top" secondItem="TCs-0U-7KA" secondAttribute="bottom" constant="311" id="Qqj-I3-mY9"/>
+                            <constraint firstItem="TCs-0U-7KA" firstAttribute="centerX" secondItem="Wr5-r7-8kO" secondAttribute="centerX" id="UpF-Nq-ydk"/>
+                            <constraint firstItem="49X-Rg-yFq" firstAttribute="top" secondItem="Wr5-r7-8kO" secondAttribute="bottom" constant="87" id="e2K-UC-L5w"/>
+                            <constraint firstItem="49X-Rg-yFq" firstAttribute="centerX" secondItem="Wr5-r7-8kO" secondAttribute="centerX" id="n7F-cA-wh7"/>
+                            <constraint firstItem="TCs-0U-7KA" firstAttribute="top" secondItem="49X-Rg-yFq" secondAttribute="bottom" constant="27" id="qLW-Yg-cvM"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="49X-Rg-yFq" id="5ro-3d-Ony"/>
+                        <outlet property="copyLabel" destination="D74-Zy-5fB" id="8Uw-CW-pCT"/>
                         <outlet property="questionLabel" destination="fzK-kq-GY0" id="tFY-ZW-hM5"/>
                     </connections>
                 </viewController>
