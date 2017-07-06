@@ -6,7 +6,7 @@ public class RotateMatrix {
 	}
 
 	public String rotateMatrix() {						
-		/* sol 1: count craracter sequeces and return compressed version. If equal ort longer return original string.
+		/* sol 1: Implement a swap by index
 
 			c0c1c2c3c4
 

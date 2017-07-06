@@ -6,7 +6,7 @@ public class ZeroMatrix {
 	}
 
 	public String zeroMatrix() {						
-		/* sol 1: count craracter sequeces and return compressed version. If equal ort longer return original string.
+		/* sol 1: Check split string into xy such that xy = s1 and yx = s2
 
 			c0c1c2c3c4
 
