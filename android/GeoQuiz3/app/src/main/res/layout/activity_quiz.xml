@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.interpegasus.geoquiz3.QuizActivity">
@@ -11,7 +12,9 @@
         android:layout_height="313dp"
         android:gravity="center"
         android:orientation="vertical"
-        android:weightSum="1">
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-1dp">
 
         <TextView
             android:id="@+id/question_text"
@@ -19,25 +22,29 @@
             android:layout_height="wrap_content"
             android:padding="24dp"
             android:text="@string/question_text"
-            android:textAlignment="center" />
+            android:textAlignment="center"/>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.18"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="1">
 
             <Button
                 android:id="@+id/true_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/true_button" />
+                android:text="@string/true_button"
+                android:textAlignment="center"
+                android:layout_weight="1.03"/>
 
             <Button
                 android:id="@+id/false_button"
-                android:layout_width="wrap_content"
+                android:layout_width="192dp"
                 android:layout_height="wrap_content"
-                android:text="@string/false_button" />
+                android:text="@string/false_button"
+                android:textAlignment="center"/>
 
         </LinearLayout>
 
@@ -51,19 +58,19 @@
                 android:id="@+id/hint_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/hint_button" />
+                android:text="@string/hint_button"/>
 
             <Button
                 android:id="@+id/next_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/next_button" />
+                android:text="@string/next_button"/>
 
             <Button
                 android:id="@+id/prev_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/prev_button" />
+                android:text="@string/prev_button"/>
         </LinearLayout>
 
 
