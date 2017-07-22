@@ -1,37 +1,30 @@
 public class StringRotation {	
-	public String str;
-
-	public StringRotation(String str) {
-		this.str = str;
+	public static boolean isSubstring(String big, String small) {
+		if (big.indexOf(small) >= 0) {
+			return true;
+		} else {
+			return false;
+		}
 	}
-
-	public boolean isSubString(str1,str2) {
+	
+	public static boolean isRotation(String s1, String s2) {
+		int len = s1.length();
+		/* check that s1 and s2 are equal length and not empty */
+		if (len == s2.length() && len > 0) { 
+			/* concatenate s1 and s1 within new buffer */
+			String s1s1 = s1 + s1;
+			return isSubstring(s1s1, s2);
+		}
+		return false;
 	}
-	public String stringRotation() {						
-		/* sol 1: count craracter sequeces and return compressed version. If equal ort longer return original string.
-
-			c0c1c2c3c4
-
-		r0	3 4 5 6 7
-		r1	3 4 5 6 7
-		r2	1 2 5 6 7
-		r3	3 4 5 6 7
-		r4	3 4 5 6 7
-
-		size 5 x 5
-		r0 c0 -> r0 c4
-		r0 c1 -> r1 c4
-		r0 c2 -> r2 c4
-		r0 c3 -> r3 c4
-		r0 c4 -> r4 c4
-
-		*/
-	}
-
+	
 	public static void main(String[] args) {
-		Integer[][] matrix = null;
-		StringRotation stringRotation = new StringRotation(matrix);	
-		System.out.println("Calling stringRotation on: " + matrix);	
-		System.out.println(stringRotation.stringRotation());
-	}
+		String[][] pairs = {{"apple", "pleap"}, {"waterbottle", "erbottlewat"}, {"camera", "macera"}};
+		for (String[] pair : pairs) {
+			String word1 = pair[0];
+			String word2 = pair[1];
+			boolean is_rotation = isRotation(word1, word2);
+			System.out.println(word1 + ", " + word2 + ": " + is_rotation);
+		}
+	}	
 }

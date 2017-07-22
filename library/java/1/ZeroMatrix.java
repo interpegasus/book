@@ -1,35 +1,144 @@
 public class ZeroMatrix {	
-	public Integer[][] matrix;
 
-	public ZeroMatrix(Integer[][] matrix) {
-		this.matrix = matrix;
+	public static int[][] randomMatrix(int M, int N, int min, int max) {
+		int[][] matrix = new int[M][N];
+		for (int i = 0; i < M; i++) {
+			for (int j = 0; j < N; j++) {
+				matrix[i][j] = randomIntInRange(min, max);
+			}
+		}
+		return matrix;
 	}
 
-	public String zeroMatrix() {						
-		/* sol 1: count craracter sequeces and return compressed version. If equal ort longer return original string.
+	public static int randomIntInRange(int min, int max) {
+		return randomInt(max + 1 - min) + min;
+	}
 
-			c0c1c2c3c4
+	public static int randomInt(int n) {
+		return (int) (Math.random() * n);
+	}
 
-		r0	3 4 5 6 7
-		r1	3 4 5 6 7
-		r2	1 2 5 6 7
-		r3	3 4 5 6 7
-		r4	3 4 5 6 7
+	public static void printMatrix(int[][] matrix) {
+		for (int i = 0; i < matrix.length; i++) {
+			for (int j = 0; j < matrix[i].length; j++) {
+				if (matrix[i][j] < 10 && matrix[i][j] > -10) {
+					System.out.print(" ");
+				}
+				if (matrix[i][j] < 100 && matrix[i][j] > -100) {
+					System.out.print(" ");
+				}
+				if (matrix[i][j] >= 0) {
+					System.out.print(" ");
+				}
+				System.out.print(" " + matrix[i][j]);
+			}
+			System.out.println();
+		}
+	}
 
-		size 5 x 5
-		r0 c0 -> r0 c4
-		r0 c1 -> r1 c4
-		r0 c2 -> r2 c4
-		r0 c3 -> r3 c4
-		r0 c4 -> r4 c4
+	public static void nullifyRow(int[][] matrix, int row) {
+		for (int j = 0; j < matrix[0].length; j++) {
+			matrix[row][j] = 0;
+		}		
+	}
 
-		*/
+	public static void nullifyColumn(int[][] matrix, int col) {
+		for (int i = 0; i < matrix.length; i++) {
+			matrix[i][col] = 0;
+		}		
+	}		
+
+	public static void setZeros(int[][] matrix) {
+		boolean rowHasZero = false;
+		boolean colHasZero = false;		
+
+			// Check if first row has a zero
+		for (int j = 0; j < matrix[0].length; j++) {
+			if (matrix[0][j] == 0) {
+				rowHasZero = true;
+				break;
+			}
+		}		
+
+			// Check if first column has a zero
+		for (int i = 0; i < matrix.length; i++) {
+			if (matrix[i][0] == 0) {
+				colHasZero = true;
+				break;
+			}
+		}		
+
+			// Check for zeros in the rest of the array
+		for (int i = 1; i < matrix.length; i++) {
+			for (int j = 1; j < matrix[0].length;j++) {
+				if (matrix[i][j] == 0) {
+					matrix[i][0] = 0;
+					matrix[0][j] = 0;
+				}
+			}
+		}		
+
+			// Nullify rows based on values in first column
+		for (int i = 1; i < matrix.length; i++) {
+			if (matrix[i][0] == 0) {
+				nullifyRow(matrix, i);
+			}
+		}		
+
+			// Nullify columns based on values in first row
+		for (int j = 1; j < matrix[0].length; j++) {
+			if (matrix[0][j] == 0) {
+				nullifyColumn(matrix, j);
+			}
+		}	
+
+			// Nullify first row
+		if (rowHasZero) {
+			nullifyRow(matrix, 0);
+		}
+
+			// Nullify first column
+		if (colHasZero) {
+			nullifyColumn(matrix, 0);
+		}
+	}	
+
+	public static boolean matricesAreEqual(int[][] m1, int[][] m2) {
+		if (m1.length != m2.length || m1[0].length != m2[0].length) {
+			return false;
+		}
+
+		for (int k = 0; k < m1.length; k++) {
+			for (int j = 0; j < m1[0].length; j++) {
+				if (m1[k][j] != m2[k][j]) {
+					return false;
+				}
+			}
+		}	
+		return true;
+	}
+
+	public static int[][] cloneMatrix(int[][] matrix) {
+		int[][] c = new int[matrix.length][matrix[0].length];
+		for (int i = 0; i < matrix.length; i++) {
+			for (int j = 0; j < matrix[0].length; j++) {
+				c[i][j] = matrix[i][j];
+			}
+		}
+		return c;
 	}
 
 	public static void main(String[] args) {
-		Integer[][] matrix = null;
-		ZeroMatrix zeroMatrix = new ZeroMatrix(matrix);	
-		System.out.println("Calling zeroMatrix on: " + matrix);	
-		System.out.println(zeroMatrix.zeroMatrix());
+		int nrows = 3;
+		int ncols = 4;
+		int[][] matrix = randomMatrix(nrows, ncols, -3, 4);		
+
+		printMatrix(matrix);
+
+		setZeros(matrix);
+
+		System.out.println();
+
+		printMatrix(matrix);
 	}
 }

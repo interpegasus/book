@@ -1,20 +1,41 @@
-public class Urlify {	
-	public String url;
 
-	public Urlify(String str, Integer strLength) {
-		this.url = url;
+public class Urlify {	
+	// Assume string has sufficient free space at the end
+	public static void replaceSpaces(char[] str, int trueLength) {
+		int spaceCount = 0, index, i = 0;
+		for (i = 0; i < trueLength; i++) {
+			if (str[i] == ' ') {
+				spaceCount++;
+			}
+		}
+		index = trueLength + spaceCount * 2;
+		if (trueLength < str.length) str[trueLength] = '\0';
+		for (i = trueLength - 1; i >= 0; i--) {
+			if (str[i] == ' ') {
+				str[index - 1] = '0';
+				str[index - 2] = '2';
+				str[index - 3] = '%';
+				index = index - 3;
+			} else {
+				str[index - 1] = str[i];
+				index--;
+			}
+		}
 	}
 
-	public String convertSpaces() {						
-		// sol 1: Convert to chars. Check each char for space an convert to %20		
-		// sol 2:	Use Stringbuilder anf append chars to eachnew string
-
+	public static int findLastCharacter(char[] str) {
+		for (int i = str.length - 1; i >= 0; i--) {
+			if (str[i] != ' ') {
+				return i;
+			}
+		}
+		return -1;
 	}
 
 	public static void main(String[] args) {
-		String text2 = "Cindy Cruse Ratcliff ";
-		Urlify convertToUrl = new Urlify(text2);	
-		System.out.println("Calling isPermutation on: " + text2);	
-		System.out.println(convertToUrl.convertSpaces());
+		String str = "Mr John Smith    ";
+		char[] arr = str.toCharArray();
+		int trueLength = findLastCharacter(arr) + 1;
+		replaceSpaces(arr, trueLength);			
 	}
 }

@@ -1,19 +1,48 @@
 public class PalindromePermutation {	
-	public String str;
 
-	public PalindromePermutation(String str) {
-		this.str = str;
+	public static int getCharNumber(Character c) {
+		int a = Character.getNumericValue('a');
+		int z = Character.getNumericValue('z');
+		
+		int val = Character.getNumericValue(c);
+		if (a <= val && val <= z) {
+			return val - a;
+		}
+		return -1;
+	}
+	
+	public static int[] buildCharFrequencyTable(String phrase) {
+		int[] table = new int[Character.getNumericValue('z') - Character.getNumericValue('a') + 1];
+		for (char c : phrase.toCharArray()) {
+			int x = getCharNumber(c);
+			if (x != -1) {
+				table[x]++;
+			}
+		}
+		return table;
 	}
 
-	public String[] palindromePermutations() {						
-		// sol 1: convert string to chars. Add char to hash and count. Even length all should have a count of 2. Odd length, all 2 except the 1 in middle.
 
+	public static boolean checkMaxOneOdd(int[] table) {
+		boolean foundOdd = false;
+		for (int count : table) {
+			if (count % 2 == 1) {
+				if (foundOdd) {
+					return false;
+				}
+				foundOdd = true;
+			}
+		}
+		return true;
+	}
+
+	public static boolean isPermutationOfPalindrome(String phrase) {
+		int[] table = buildCharFrequencyTable(phrase);
+		return checkMaxOneOdd(table);
 	}
 
 	public static void main(String[] args) {
-		String text2 = "Cindy Cruse Ratcliff ";
-		PalindromePermutation permutations = new PalindromePermutation(text2);	
-		System.out.println("Calling palindromePermutations on: " + text2);	
-		System.out.println(permutations.palindromePermutations());
+		String pali = "Rats live on no evil star";
+		System.out.println(isPermutationOfPalindrome(pali));
 	}
 }

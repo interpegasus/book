@@ -1,23 +1,51 @@
 public class OneAway {	
-	public String string1;
-	public String string2;
+	public static boolean oneEditReplace(String s1, String s2) {
+		boolean foundDifference = false;
+		for (int i = 0; i < s1.length(); i++) {
+			if (s1.charAt(i) != s2.charAt(i)) {
+				if (foundDifference) {
+					return false;
+				}
 
-	public OneAway(String txt1,String txt2) {
-		this.string1 = txt1;
-		this.string2 = txt2;
+				foundDifference = true;
+			}
+		}
+		return true;
 	}
 
-	public Boolean oneAway() {						
-		// sol 1: Add chars to hash and count differences. 
-		// sol 2: Order strings. compare them except last char of both or longer. If equal retun true.
-		
+	/* Check if you can insert a character into s1 to make s2. */
+	public static boolean oneEditInsert(String s1, String s2) {
+		int index1 = 0;
+		int index2 = 0;
+		while (index2 < s2.length() && index1 < s1.length()) {
+			if (s1.charAt(index1) != s2.charAt(index2)) {
+				if (index1 != index2) {
+					return false;
+				}		
+				index2++;
+			} else {
+				index1++;
+				index2++;
+			}
+		}
+		return true;
+	}	
+
+	public static boolean oneEditAway(String first, String second) {
+		if (first.length() == second.length()) {
+			return oneEditReplace(first, second);
+		} else if (first.length() + 1 == second.length()) {
+			return oneEditInsert(first, second);
+		} else if (first.length() - 1 == second.length()) {
+			return oneEditInsert(second, first);
+		} 
+		return false;
 	}
 
 	public static void main(String[] args) {
-		String text2 = "Cindy Cruse Ratcliff ";
-		String text1 = "Cindy CruseRatcliff ";
-		OneAway oneAway = new OneAway(text1,text2);	
-		System.out.println("Calling oneAway on: " + text1 + " and " + text2);	
-		System.out.println(oneAway.oneAway());
+		String a = "Paleo";
+		String b = "aleo";
+		boolean isOneEdit = oneEditAway(a, b);
+		System.out.println(a + ", " + b + ": " + isOneEdit);
 	}
 }
