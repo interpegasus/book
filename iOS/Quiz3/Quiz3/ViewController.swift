@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet var answerLabel: UILabel!
     @IBOutlet var copyLabel: UILabel!
     
-    let questions: [String] = ["Fropm what is cognac made?",
+    let questions: [String] = ["From what is cognac made?",
                                "What is 7+7",
                                "What is the capital of Vermont",
                                "What is the capital of france",

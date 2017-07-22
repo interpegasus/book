@@ -71,4 +71,24 @@ public class RotateMatrix {
 				System.out.println();
 				printMatrix(matrix);
 			}
+
+			/* sol 1: Implement a swap by index
+
+				c0c1c2c3c4
+
+			r0	3 4 5 6 7
+			r1	3 4 5 6 7
+			r2	1 2 5 6 7
+			r3	3 4 5 6 7
+			r4	3 4 5 6 7
+
+			size 5 x 5
+			r0 c0 -> r0 c4
+			r0 c1 -> r1 c4
+			r0 c2 -> r2 c4
+			r0 c3 -> r3 c4
+			r0 c4 -> r4 c4
+
+			*/
 		}
+
