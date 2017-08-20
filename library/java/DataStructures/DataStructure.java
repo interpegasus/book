@@ -44,12 +44,12 @@ public class DataStructure {
 		Iterator<Map.Entry<Integer, String>> it = myMap.entrySet().iterator();
 
 		while (it.hasNext()) {
-		  Map.Entry<Integer, String> entry = it.next();
+			Map.Entry<Integer, String> entry = it.next();
 		  // Remove entry if key is null or equals 0.
-		  if (entry.getKey() == 1) {
+			if (entry.getKey() == 1) {
 		    // it.remove();
-		    System.out.println("Iterator: " + entry.getValue());
-		  }
+				System.out.println("Iterator: " + entry.getValue());
+			}
 		}
 		/*
 		 * HashSet: Unique items
@@ -78,37 +78,37 @@ public class DataStructure {
 		String monthString;
 		switch (month) {
 			case 1:  monthString = "January";
-			     break;
+			break;
 			case 2:  monthString = "February";
-			     break;
+			break;
 			case 3:  monthString = "March";
-			     break;
+			break;
 			case 4:  monthString = "April";
-			     break;
+			break;
 			case 5:  monthString = "May";
-			     break;
+			break;
 			case 6:  monthString = "June";
-			     break;
+			break;
 			case 7:  monthString = "July";
-			     break;
+			break;
 			case 8:  monthString = "August";
-			     break;
+			break;
 			case 9:  monthString = "September";
-			     break;
+			break;
 			case 10: monthString = "October";
-			     break;
+			break;
 			case 11: monthString = "November";
-			     break;
+			break;
 			case 12: monthString = "December";
-			     break;
+			break;
 			default: monthString = "Invalid month";
-			     break;
+			break;
 		}
 		System.out.println(monthString);
 		int count = 1;
 		while (count < 11) {
-		  System.out.println("Count is: " + count);
-		  count++;
+			System.out.println("Count is: " + count);
+			count++;
 		}
 	}
 

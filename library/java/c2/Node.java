@@ -1,10 +1,3 @@
-Member variable that points to head
-
-appendToTail
-appendToHead
-appendNode
-deleteNode
-
 public class Node {	
 	public String name;
 	public int year;
