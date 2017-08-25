@@ -1,0 +1,1621 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"head",
+				"headNode"
+			],
+			[
+				"hea",
+				"headNode"
+			],
+			[
+				"li",
+				"linkedListArray"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"e",
+				"element"
+			],
+			[
+				"ca",
+				"capacity"
+			],
+			[
+				"ha",
+				"hashCode"
+			],
+			[
+				"Lin",
+				"LinkedList"
+			],
+			[
+				"tw",
+				"tweet_object"
+			],
+			[
+				"lan",
+				"language_code"
+			],
+			[
+				"fin",
+				"find_or_create_by"
+			],
+			[
+				"trans",
+				"transportationValues"
+			],
+			[
+				"user",
+				"user_profile"
+			],
+			[
+				"L",
+				"LinkedListNode"
+			],
+			[
+				"in",
+				"informationValues"
+			],
+			[
+				"even",
+				"event_registration"
+			],
+			[
+				"sub",
+				"subdomain"
+			],
+			[
+				"ta",
+				"target_app"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"crea",
+				"create_event_polls"
+			],
+			[
+				"Even",
+				"EventPollRelationship"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"event_poll_relatin",
+				"event_poll_relationship"
+			],
+			[
+				"faceb",
+				"facebook_user_id"
+			],
+			[
+				"upda",
+				"update_attributes"
+			],
+			[
+				"Timel",
+				"TimelineEvent"
+			],
+			[
+				"timeline",
+				"timeline_event"
+			],
+			[
+				"app",
+				"app_name"
+			],
+			[
+				"inc",
+				"includes"
+			],
+			[
+				"espn",
+				"espn_id"
+			],
+			[
+				"feed",
+				"feed_pages"
+			],
+			[
+				"fee",
+				"feed_pages"
+			],
+			[
+				"page",
+				"page_object"
+			],
+			[
+				"des",
+				"destroy"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"cen",
+				"text-center"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"slo",
+				"slogan_1"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"ima",
+				"image_array"
+			],
+			[
+				"get_",
+				"get_or_create"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"is",
+				"is_enabled"
+			],
+			[
+				"event_polll",
+				"event_poll_relationship"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"curr",
+				"current_book"
+			],
+			[
+				"ja",
+				"javascript-enabled"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"bok",
+				"book_title"
+			],
+			[
+				"bck",
+				"background-color"
+			],
+			[
+				"get",
+				"getCookie"
+			],
+			[
+				"sele",
+				"selected_number"
+			],
+			[
+				"timelin",
+				"timeline_event"
+			],
+			[
+				"ena",
+				"enabled_events"
+			],
+			[
+				"book",
+				"book_text"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"bak",
+				"background-size"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"Inf",
+				"Information"
+			],
+			[
+				"start",
+				"start_datetime"
+			],
+			[
+				"event_status_",
+				"event_status_description"
+			],
+			[
+				"use",
+				"user_email"
+			],
+			[
+				"co",
+				"contrib"
+			],
+			[
+				"dja",
+				"django"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"i",
+				"if\tif"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"avail",
+				"available_height"
+			],
+			[
+				"max",
+				"max-height"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "LinkedList.java",
+			"settings":
+			{
+				"buffer_size": 2997,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "SingleLinkedList.java",
+			"settings":
+			{
+				"buffer_size": 1979,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\t[SideBarGit@SublimeText] \n\t[master 1e4a39d] Linked List\n\t 13 files changed, 112 insertions(+), 1217 deletions(-)\n\t delete mode 100644 library/java/DataStructures/HashElement.class\n\t delete mode 100644 library/java/DataStructures/HashTable$HashElement.class\n\t delete mode 100644 library/java/DataStructures/HashTable.class\n\t delete mode 100644 library/java/DataStructures/LinkedList$Node.class\n\t delete mode 100644 library/java/DataStructures/LinkedList.class\n\t create mode 100644 library/java/DataStructures/Node.class\n\t create mode 100644 library/java/DataStructures/Node.java\n\t create mode 100644 library/java/DataStructures/SingleLinkedList.class\n\t create mode 100644 library/java/DataStructures/SingleLinkedList.java\n\t create mode 100644 library/java/DataStructures/SingleLinkedListInterface.class\n\t create mode 100644 library/java/DataStructures/SingleLinkedListInterface.java\n\t delete mode 100644 library/java/DataStructures/book.sublime-workspace\n\t delete mode 100644 library/java/c2/Node.java",
+			"settings":
+			{
+				"buffer_size": 1001,
+				"line_ending": "Unix",
+				"name": "[SideBarGit@SublimeText]",
+				"scratch": true
+			}
+		},
+		{
+			"file": "SingleLinkedListInterface.java",
+			"settings":
+			{
+				"buffer_size": 245,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Node.java",
+			"settings":
+			{
+				"buffer_size": 276,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 384.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pre",
+				"JsPrettier: Format Code"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"prett",
+				"JsPrettier: Format Code"
+			],
+			[
+				"pret",
+				"JsPrettier: Format Code"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"jsp",
+				"JsPrettier: Format Code"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"git",
+				"git: diff"
+			],
+			[
+				"rev",
+				"File: Revert"
+			],
+			[
+				"rremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 637.0
+	},
+	"console":
+	{
+		"height": 260.0,
+		"history":
+		[
+			"ls",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/opt/interpegasus/book",
+		"/opt/interpegasus/book/library",
+		"/opt/interpegasus/book/library/java",
+		"/opt/interpegasus/book/library/java/c2",
+		"/opt/interpegasus/book/library/java/DataStructures",
+		"/opt/interpegasus/book/library/java/Hello World"
+	],
+	"file_history":
+	[
+		"/opt/interpegasus/book/library/java/c2/Node.java",
+		"/opt/interpegasus/book/library/java/DataStructures/HashElement.java",
+		"/opt/interpegasus/book/library/java/DataStructures/HashTable.java",
+		"/opt/interpegasus/book/library/java/DataStructures/  found",
+		"/opt/interpegasus/book/library/java/DataStructures/DataStructure.java",
+		"/opt/interpegasus/book/library/java/DataStructures/book.sublime-project",
+		"/opt/interpegasus/book/library/java/DataStructures/LinkedList.java",
+		"/opt/interpegasus/book/library/java/DataStructures/\t\tSystem.out.println(new StringBuilder(\"Size",
+		"/opt/interpegasus/book/library/java/DataStructures/LinkedList/LinkedList.java",
+		"/opt/interpegasus/book/library/java/DataStructures/linked list",
+		"/opt/interpegasus/book/library/java/DataStructures/Note",
+		"/opt/interpegasus/book/library/java/c1/OneAway.java",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/api/views.py",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/api/serializers.py",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/pages/models.py",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/pages/views.py",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/interpegasus/urls.py",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/interpegasus/settings.py",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/api/apps.py",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/api/models.py",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/api/tests.py",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/api/admin.py",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/api/urls.py",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/pages/urls.py",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/interpegasus.sublime-project",
+		"/opt/interpegasus/mobovivo/webapps/espn/app/models/espn_data_feed.rb",
+		"/Users/arturo/Library/Application Support/Sublime Text 3/Packages/Python PEP8 Autoformat/pep8_autoformat.sublime-settings",
+		"/Users/arturo/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/arturo/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/arturo/Library/Application Support/Sublime Text 3/Packages/User/pep8_autoformat.sublime-settings",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/static/foundation/interpegasus/src/layouts/default.html",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/static/javascript/recaptcha.js",
+		"/opt/interpegasus/gae_cms/djangae/interpegasus/static/foundation/interpegasus/config.yml",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventRegistration/RegistrationPaths.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/config/database.yml",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/views/events/register.html.erb",
+		"/opt/interpegasus/mobovivo/webapps/esports/db/seeds.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventRegistration/EventRegistration.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/controllers/events_controller.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventRegistration/WizardViews/Confirmation.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/controllers/api/v1/event_registrations_controller.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/config/routes.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/controllers/api/v1/events_controller.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventRegistration/WizardViews/DocumentFields.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventRegistration/WizardViews/HotelFields.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventRegistration/WizardViews/Success.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventRegistration/WizardViews/InformationFields.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/models/question.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/models/registration_path.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/models/address.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventRegistration/WizardViews/FlightFields.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventRegistration/WizardViews/TransportationFields.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/models/scanned_doc.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/models/travel_document.rb",
+		"/Users/arturo/Library/Application Support/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/opt/interpegasus/book/library/java/1/RotateMatrix.java",
+		"/opt/interpegasus/book/library/java/1/ZeroMatrix.java",
+		"/opt/interpegasus/book/library/java/2/LinkedListNode.java",
+		"/opt/interpegasus/book/library/java/2/removeDups.java",
+		"/opt/interpegasus/book/library/java/1/StringRotation.java",
+		"/opt/interpegasus/book/library/java/1/OneAway.java",
+		"/opt/interpegasus/book/library/java/1/Permutation.java",
+		"/opt/interpegasus/book/library/java/1/PalindromePermutation.java",
+		"/opt/interpegasus/book/library/java/1/StringCompression.java",
+		"/opt/interpegasus/book/library/java/1/Urlify.java",
+		"/opt/interpegasus/book/library/java/Hello World/HelloWorld.java",
+		"/opt/interpegasus/book/library/java/Data Structures/HashTable.java",
+		"/opt/interpegasus/book/library/java/Data Structures/LinkedList.java",
+		"/opt/interpegasus/book/library/java/1/HashTable.java",
+		"/Users/arturo/Library/Application Support/Sublime Text 3/Packages/User/auto_save.sublime-settings",
+		"/opt/interpegasus/mobovivo/webapps/esports/db/migrate/20170719211632_add_sa_topro_to_personal_info.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/db/migrate/20170719204801_add_prefered_contact_method_to_personal_info.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/db/migrate/20170612011910_create_personal_infos.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/db/migrate/20170719210450_add_con_phone_to_personal_info.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventWizard/event_wizard.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventRegistration/WizardViews/QuestionFields.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/public/assets/application-517d3b7fcde4931ba0fa6a0fa86ba82a17091032ce9a59ce5d5b515ee8da2c23.js",
+		"/opt/interpegasus/mobovivo/webapps/esports/public/assets/server_rendering-6100489145c7fc0e88150fc0420a2286d6c5890b1e0eb0f5efd049c981fd05b5.js",
+		"/opt/interpegasus/mobovivo/webapps/esports/tmp/cache/assets/sprockets/v3.0/vf/VfzW6sEvy239vb0up2H4X1r5NQZc73U2BPMuwjNXT1Q.cache",
+		"/opt/interpegasus/mobovivo/webapps/esports/tmp/cache/assets/sprockets/v3.0/ZS/zscdO480RIIBP8Lso-bnEyw_7Ukv7D_8GSDh33zx4Iw.cache",
+		"/opt/interpegasus/mobovivo/webapps/esports/tmp/cache/assets/sprockets/v3.0/7a/7aC-tRjBiLrzPjHuxHOjJssSmFUxKMfF3Dx3eq0Gsg0.cache",
+		"/opt/interpegasus/mobovivo/webapps/esports/tmp/cache/assets/sprockets/v3.0/AM/aMmXjDDbE2ow_UhDG2MmoOwkdFiWCakuyFbgUgIramk.cache",
+		"/opt/interpegasus/mobovivo/webapps/esports/tmp/cache/assets/sprockets/v3.0/B7/B7qSW-KCeAmfxsWA5w-oeJV3U-3_IWpSeF3feugUsAA.cache",
+		"/opt/interpegasus/mobovivo/webapps/esports/tmp/cache/assets/sprockets/v3.0/eD/eDOpACDaAA4V3fGiLrLBmCMJpHPev5Bh7qNq7yG5UzI.cache",
+		"/opt/interpegasus/mobovivo/webapps/esports/tmp/cache/assets/sprockets/v3.0/eH/eh_uI3Hm-cvmH0Y_IGTPFarEC51ARUyltsE82sEfFfc.cache",
+		"/opt/interpegasus/mobovivo/webapps/esports/tmp/cache/assets/sprockets/v3.0/gI/GI8TGpvKKuRrKFzudsXTU0gGpPQMDHzk0uvK0jpgfP0.cache",
+		"/opt/interpegasus/mobovivo/webapps/esports/tmp/cache/assets/sprockets/v3.0/HM/HM-dfRb7270A52u6kYzH9YVcb53yVANcNbicnbY2ySw.cache",
+		"/opt/interpegasus/mobovivo/webapps/esports/tmp/cache/assets/sprockets/v3.0/o2/o27x6yQLgnMXV0w59Q2YVn0O556S_kr3fF5Opq1nOPE.cache",
+		"/opt/interpegasus/mobovivo/webapps/esports/tmp/cache/assets/sprockets/v3.0/qE/QE4tUKKJPJGNrgRyM8BUGeBtTaNx4q0pLF49IAiMX2E.cache",
+		"/opt/interpegasus/mobovivo/webapps/esports/tmp/cache/assets/sprockets/v3.0/uY/uYNdA_bAiPflSPFANbedLUqYy4Pm1cyMzWzJkLt6_DQ.cache",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/controllers/users_controller.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/event_landing.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/controllers/application_controller.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/controllers/event_registrations_controller.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/application.js",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/header.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/admin/static_page.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/controllers/api/v1/static_pages_controller.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/models/user.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/models/static_page.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/db/migrate/20170630205338_add_redirect_url_to_static_page.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/active_admin.js.coffee",
+		"/opt/interpegasus/mobovivo/webapps/esports/config/application.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/stylesheets/active_admin.scss",
+		"/opt/interpegasus/mobovivo/webapps/esports/Gemfile",
+		"/opt/interpegasus/mobovivo/webapps/esports/tmp/cache/assets/sprockets/v3.0/2p/2p1_I_lBnTMHxLeS42gW4V7YZnVYb5sGdlKg1jokeQU.cache",
+		"/opt/interpegasus/book/library/java/1/Unique.java",
+		"/opt/interpegasus/book/library/java/1/StringBuilder.java",
+		"/opt/interpegasus/mobovivo/webapps/esports/Gemfile.lock",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/models/sub_domain.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/HelloWorld/Post.js.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/db/migrate/20170627213602_create_static_pages.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/admin/scanned_doc.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/stylesheets/application.scss",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/views/layouts/application.html.erb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/views/event_registrations/new.html.erb",
+		"/opt/interpegasus/mobovivo/webapps/esports/node_modules/react_ujs/index.js",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventRegistration/EventRegistration.BAK.jsx",
+		"/Users/arturo/Library/Application Support/Sublime Text 3/Packages/User/ReactIDE.sublime-settings",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventRegistration/EventRegistration.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/controllers/travel_documents_controller.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/controllers/transportation_bookings_controller.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/controllers/notifications_controller.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/controllers/hotel_bookings_controller.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/controllers/flight_bookings_controller.rb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/views/events/registration.html.erb",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components/EventRegistration/InformationFields.jsx",
+		"/opt/interpegasus/mobovivo/webapps/esports/app/views/application/index.html.erb"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 152.0,
+		"where_history":
+		[
+			"/opt/interpegasus/book/library/java",
+			"/opt/interpegasus/book",
+			"/opt/interpegasus/gae_cms/djangae/interpegasus/pages",
+			"/opt/interpegasus/gae_cms/djangae/interpegasus/api",
+			"/opt/interpegasus/gae_cms/djangae/interpegasus",
+			"/opt/interpegasus/gae_cms/djangae/interpegasus/static/foundation/interpegasus",
+			"/opt/interpegasus/gae_cms/djangae/interpegasus/static/foundation",
+			"/opt/interpegasus/gae_cms/djangae/interpegasus/static/foundation/interpegasus/src/pages",
+			"/opt/interpegasus/gae_cms/djangae/interpegasus/static/foundation/interpegasus",
+			"/opt/interpegasus/mobovivo/webapps/esports",
+			"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts",
+			"/opt/interpegasus/mobovivo/webapps/esports/config",
+			"/opt/interpegasus/mobovivo/webapps/esports/app",
+			"/opt/interpegasus/mobovivo/webapps/esports/app/assets",
+			"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts/components",
+			"/opt/interpegasus/mobovivo/webapps/esports",
+			"/opt/interpegasus/mobovivo/webapps/esports/app",
+			"/opt/interpegasus/mobovivo/webapps/esports",
+			"/opt/interpegasus/mobovivo/webapps/esports/app",
+			"/opt/interpegasus/mobovivo/webapps/esports/app/assets",
+			"/opt/interpegasus/mobovivo/webapps/esports",
+			"/opt/interpegasus/mobovivo/webapps/esports/app/assets",
+			"/opt/interpegasus/mobovivo/webapps/esports",
+			"/opt/interpegasus/mobovivo/webapps/esports/app/assets/javascripts",
+			"/opt/interpegasus/mobovivo/webapps/esports",
+			"/opt/interpegasus/mobovivo/webapps/esports/app/assets",
+			"/opt/interpegasus/mobovivo/webapps/esports/app",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/gae_cms/projects/cms/static/foundation/interpegasus/src",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/config",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn/config",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/db/migrate",
+			"/opt/interpegasus/mobovivo/webapps/espn/app/models",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn/app/controllers",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn/app/controllers",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app/models",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn/app/models",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn/app/models",
+			"/opt/interpegasus/mobovivo/webapps/espn/app/controllers",
+			"/opt/interpegasus/mobovivo/webapps/espn/app/models",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/config",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/config",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app/controllers",
+			"/opt/interpegasus/mobovivo/webapps/espn/app/models",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app/models",
+			"/opt/interpegasus/gae_cms/projects/cms/pages",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/gae_cms/projects/cms/static/foundation/magicangel",
+			"/opt/interpegasus/gae_cms/projects/cms/users",
+			"/opt/interpegasus/gae_cms/projects/cms/pages",
+			"/opt/interpegasus/gae_cms/projects/cms",
+			"/opt/interpegasus/gae_cms/projects/cms/static/foundation",
+			"/opt/interpegasus/gae_cms/projects/cms",
+			"/opt/interpegasus/gae_cms/projects/cms/pages",
+			"/opt/interpegasus/gae_cms/projects/cms",
+			"/opt/interpegasus/gae_cms/projects/cms/static",
+			"/opt/interpegasus/mobovivo/webapps/CPAC_CMS",
+			"/opt/interpegasus/gae_cms/projects/cms",
+			"/opt/interpegasus/gae_cms/projects/cms/templates/layout",
+			"/opt/interpegasus/gae_cms/projects/cms/pages",
+			"/opt/interpegasus/gae_cms/projects/cms",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/gae_cms/projects/cms/static/images",
+			"/opt/interpegasus/mobovivo/webapps/espn",
+			"/opt/interpegasus/mobovivo/webapps/espn/app/models",
+			"/opt/interpegasus/gae_cms/projects/cms/users",
+			"/opt/interpegasus/gae_cms/projects/cms/pages",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"getHead",
+			"emp",
+			"iterating forward",
+			"iterating forward..",
+			"hashTableArray",
+			"HashTableObject",
+			"E",
+			"DJANGAE_CREATE_UNKNOWN_USER",
+			"CKEDITOR_CONFIGS",
+			"admin",
+			"Post",
+			"Language",
+			"image_of_the_day",
+			"authentication_classes",
+			"authentication_classe",
+			"api/",
+			"rtok",
+			"LANG",
+			"return_weekly",
+			"mini_fantasy",
+			"mini_fantasy_calendar",
+			"tweet_dictionary",
+			"valida",
+			"webpack",
+			"react",
+			"bower",
+			"react",
+			"hello react",
+			"hello",
+			"react ",
+			"react",
+			"foundation-sites/js/foundation.zf.responsiveAccordionTabs.js",
+			"valida",
+			"fromVa",
+			"step",
+			"registrationPath",
+			"texta",
+			"radio",
+			"handlePrevious",
+			"radio",
+			"address",
+			"this.props.user",
+			"hand",
+			"date",
+			"flights",
+			"updateRegistrationState",
+			"radio",
+			"saveToProfile",
+			"usAuthorized",
+			"Emergency Contact Phone Number",
+			"getBucketIndex",
+			"hashCode",
+			"foundDifference",
+			"DoublyLinkedListImpl",
+			"emergency_contact_phone",
+			"country",
+			"lang",
+			"handleInputChange",
+			"<select",
+			"<input",
+			"state",
+			"getInitialState",
+			"nextStep",
+			"next",
+			"personalInformationValues",
+			"state",
+			"input",
+			"props.personalInformationValues",
+			"v1",
+			"saveInformationFieldsToDB",
+			"decode_firabase_token",
+			"props",
+			"world",
+			"class=",
+			"header",
+			"diplay-filter",
+			"filters_sidebar_section",
+			"Afficher",
+			"Afficher les filtres",
+			"aficher",
+			"ZeroMatrix",
+			"Rotate",
+			"paperc",
+			"yarn",
+			"var React = require(\"react\")",
+			"'",
+			"Cache",
+			"class=\"button tiny\">Read More",
+			"+t.link_url+",
+			"class=\"button tiny\">Read More</a>",
+			"t.link_url+",
+			"http://pico.mobovivo.com/assets/",
+			"/assets/",
+			"/assets/'+t.link_url+'",
+			"t.link_url",
+			"byebug",
+			"send_fcm",
+			"send_fcm_message",
+			"byebug",
+			"buebug",
+			"send_fcm_message",
+			"wgg_nhl",
+			"global-radius",
+			"page_tag_overlay",
+			"150px",
+			"180",
+			"tag",
+			"page_post_list_tag",
+			"page_main_post_image_list",
+			"page_post_image_container",
+			"tag",
+			"page_post_image_container",
+			"overla",
+			"page_post_image_container",
+			"page_post_list_tag",
+			"page_main_post_image_list",
+			"page_post_list_tag",
+			"breadcrumbs",
+			"rest",
+			"rese",
+			"create_minifantasy_votes_cache",
+			"create_cached_minifantasy_vote",
+			"MINI_FANTASY_SINGLE_VOTE",
+			"sidekiq_options",
+			"process",
+			"pico_ti",
+			"proce",
+			"new_user_all_time_games_played"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"linkedListArray",
+			"Record",
+			"Post",
+			"Image",
+			"Page",
+			"api/v1/",
+			"LinkedList",
+			"<select required",
+			"<input required",
+			"state",
+			"decode_firebase_token",
+			"className=",
+			"StringRotation",
+			"Zero",
+			"\"",
+			"8rem",
+			"9rem",
+			"7rem",
+			"1.8rem",
+			"",
+			"e",
+			"before_action",
+			"http",
+			"#",
+			"def ",
+			"cineplexstaging.mobovivo",
+			"picodev.mobovivo",
+			"picodev",
+			"",
+			"/",
+			"\"gamification\"",
+			"77",
+			"65",
+			"80",
+			"87",
+			"80",
+			"70",
+			"74.0625em",
+			"60.0625em",
+			"max-width: 60em",
+			"59.0625em",
+			"70.0625em",
+			"60.0625em",
+			"80.0625em",
+			"   ",
+			"<link rel=\"stylesheet\" href=\"https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css\">\n<script src=\"https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js\"></script>",
+			"24",
+			"21",
+			"merged_event_data",
+			"lineheight: 1.2",
+			"lineheight: 1.0",
+			"lineheight: 1.2",
+			"right",
+			"previousUrl",
+			"previousText",
+			"previousTitle",
+			"previous",
+			"",
+			"test_donut_chart_and_leaderboard",
+			"<g transform=\"translate(0 50)\">",
+			"\"32\"",
+			"h5>",
+			"<h5",
+			"49px",
+			"<ul class=\"pagination\"",
+			"selected=\"selected\"",
+			"x_forwarded_for",
+			"feedparser",
+			"logger",
+			"user",
+			"response.content",
+			"counter",
+			"response.",
+			"response =",
+			"r.content.json()",
+			"fi-",
+			"body",
+			"bible-text-left",
+			"body",
+			"# ...",
+			"# ...\ndef",
+			"",
+			"expirationDays",
+			"cookieValue",
+			"cookieName",
+			"<h4 class=\"text-center\">",
+			"menu vertical",
+			"",
+			"h4",
+			"alert",
+			"secondary",
+			"sync_two_days",
+			"sync_close_scope",
+			"athlete_leader",
+			"image_info + ",
+			"horizontal_scroller_text",
+			"horizontal_scroller",
+			"text-scroller"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "LinkedList.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2612,
+								2545
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2994,
+										2995
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2535,
+										2536
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1389.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "SingleLinkedList.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1900,
+								1900
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1975,
+										1976
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1511,
+										1512
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 733.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "[SideBarGit@SublimeText]",
+							"bracket_highlighter.busy": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "SingleLinkedListInterface.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										244,
+										245
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										46,
+										47
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Node.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								276,
+								276
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										275,
+										276
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										22,
+										23
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 26.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 180.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-fetch":
+	{
+		"height": 110.0
+	},
+	"pinned_build_system": "",
+	"project": "book.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"app/assets/javascripts/components/EventRegistration/EventRegistration.js.jsx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 457.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
