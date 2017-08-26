@@ -37,10 +37,12 @@ public class Stack <T> {
 	public static void main(String [] args){
 		Stack<Integer> myStack = new Stack<Integer>();
 		myStack.push(7);
-		myStack.push(4);
+		myStack.push(4);		
+		System.out.println(myStack.pop());
 		myStack.push(2);
 		myStack.push(1);
-		System.out.println("P");
 		System.out.println(myStack.peek());
+		
+		
 	}	
 }

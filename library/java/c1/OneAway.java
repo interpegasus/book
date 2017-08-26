@@ -29,7 +29,7 @@ public class OneAway {
 			}
 		}
 		return true;
-	}	
+	}
 
 	public static boolean oneEditAway(String first, String second) {
 		if (first.length() == second.length()) {
