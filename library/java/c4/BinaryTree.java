@@ -1,5 +1,5 @@
-public class BinaryTree <T> {
-	private static class TreeNode <T>{
+public class BinaryTree <T extends Comparable<T>> {
+	private static class TreeNode <T extends Comparable<T>> {
 		protected T data;
 		protected TreeNode <T> parent;
 		protected TreeNode <T>[] children;
@@ -15,77 +15,130 @@ public class BinaryTree <T> {
 		}
 	}
 
-	private static class BinaryTreeNode<T>extends TreeNode{
-		private BinaryTreeNode<T> leftNode;
-		private BinaryTreeNode<T> rightNode;
+	private static class BinaryTreeSearchNode<T extends Comparable<T>> extends TreeNode<T> {
+		private BinaryTreeSearchNode<T> leftNode;
+		private BinaryTreeSearchNode<T> rightNode;
 
-		public BinaryTreeNode(T myData){
+		public BinaryTreeSearchNode(T myData){
 			super(myData);
 			this.leftNode = null;
 			this.rightNode = null;
 			this.children = null;
 		}
 
+		private void insertInorder(T data) {			
+			if (data.compareTo(this.data) <= 0) {			
+				if (this.leftNode == null){
+					this.leftNode = new BinaryTreeSearchNode<T>(data);
+					this.leftNode.parent = this;
+				} else {
+					this.leftNode.insertInorder(data);
+				}
+
+			} else {			
+				if (this.rightNode == null){
+					this.rightNode = new BinaryTreeSearchNode<T>(data);
+					this.rightNode.parent = this;					
+				} else {
+					this.rightNode.insertInorder(data);
+				}
+			} 
+		}
+
 		public void myMethod(){
-			System.out.println("This is a BinaryTreeNode data type and method override");
+			System.out.println("This is a BinaryTreeSearchNode data type and method override");
 		}
 
 		public void myMethod(int data){
-			System.out.println("This is a BinaryTreeNode data type and method overload");
+			System.out.println("This is a BinaryTreeSearchNode data type and method overload");
+		}
+
+		private void visitNode(){
+			System.out.println(this.data);
+		}
+
+		int getHeight(BinaryTreeSearchNode<T> node) {
+			if (node == null) return -1;
+			return 1 + java.lang.Math.max(getHeight(node.leftNode), getHeight(node.rightNode));
+		}
+
+		private void inOrderTraversal(){
+			if (this != null){
+				try{
+					this.leftNode.inOrderTraversal();
+				} catch (java.lang.NullPointerException e){
+
+				}				
+				this.visitNode();
+				try{
+					this.rightNode.inOrderTraversal();
+				} catch (java.lang.NullPointerException e){
+
+				}				
+			}
+		}
+
+		private void preOrderTraversal(){
+			if (this != null){
+				this.visitNode();
+				this.leftNode.inOrderTraversal();			
+				this.rightNode.inOrderTraversal();
+			}
+		}
+
+		private void postOrderTraversal(){
+			if (this != null){
+				this.leftNode.inOrderTraversal();			
+				this.rightNode.inOrderTraversal();
+				this.visitNode();
+			}
 		}
 	}
 
-	private BinaryTreeNode <T> root;
+
+	private BinaryTreeSearchNode <T> root;
 	private int totalNodes;
-	private int treeHeight;
 
 	public BinaryTree(T data){
-		this.root = new BinaryTreeNode<T>(data);
+		this.root = new BinaryTreeSearchNode<T>(data);
 		this.totalNodes = 0;
-		this.treeHeight = 0;
-		this.increaseNodeCount();
-		this.calculateHeight();
+		this.increaseNodeCount();		
 	}
 
-	private void increaseNodeCount(){
+	protected void increaseNodeCount(){
 		this.totalNodes ++;
 	}
 
-	private void calculateHeight(){
-		this.treeHeight = 1;
+	public BinaryTreeSearchNode <T> getRoot(){
+		System.out.println("Get Root:" + this.root.data);
+		return this.root;
 	}
 
-	private void visitNode(BinaryTreeNode myTreeNode){
-		System.out.println(myTreeNode.data);
-	}
-
-	private void inOrderTraversal(BinaryTreeNode myTreeNode){
-		if (myTreeNode != null){
-			inOrderTraversal(myTreeNode.leftNode);
-			this.visitNode(myTreeNode);
-			inOrderTraversal(myTreeNode.rightNode);
-		}
-	}
-
-	private void preOrderTraversal(BinaryTreeNode myTreeNode){
-		if (myTreeNode != null){
-			this.visitNode(myTreeNode);
-			inOrderTraversal(myTreeNode.leftNode);			
-			inOrderTraversal(myTreeNode.rightNode);
-		}
-	}
-
-	private void postOrderTraversal(BinaryTreeNode myTreeNode){
-		if (myTreeNode != null){
-			inOrderTraversal(myTreeNode.leftNode);			
-			inOrderTraversal(myTreeNode.rightNode);
-			this.visitNode(myTreeNode);
-		}
-	}
 
 	public static void main(String args []){		
 		BinaryTree<Integer> myBinaryTree = new BinaryTree<Integer>(7);
 		System.out.println("Node Count: " + myBinaryTree.totalNodes);
-		System.out.println("Tree Height: " + myBinaryTree.treeHeight);
+		BinaryTreeSearchNode<Integer> treeRoot =  myBinaryTree.getRoot();
+		System.out.println("Height: " + treeRoot.getHeight(treeRoot));
+		treeRoot.insertInorder(3);
+		System.out.println("Height: " + treeRoot.getHeight(treeRoot));
+		treeRoot.insertInorder(13);
+		treeRoot.insertInorder(73);
+		treeRoot.insertInorder(432);
+		treeRoot.insertInorder(33);
+		treeRoot.insertInorder(3243);
+		treeRoot.insertInorder(343);
+		treeRoot.insertInorder(37);
+		treeRoot.insertInorder(763);
+		treeRoot.insertInorder(34);
+		treeRoot.insertInorder(39);
+		treeRoot.insertInorder(30);
+		System.out.println("Height: " + treeRoot.getHeight(treeRoot));
+		System.out.println("Pre Order Traversal");
+		treeRoot.preOrderTraversal();
+		System.out.println("In Order Traversal");
+		treeRoot.inOrderTraversal();
+		System.out.println("Post Order Traversal");
+		treeRoot.postOrderTraversal();
 	}
 }
