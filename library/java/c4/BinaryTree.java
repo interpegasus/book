@@ -1,3 +1,5 @@
+import java.util.Queue;
+import java.util.LinkedList;
 public class BinaryTree <T extends Comparable<T>> {
 	private static class TreeNode <T extends Comparable<T>> {
 		protected T data;
@@ -93,6 +95,23 @@ public class BinaryTree <T extends Comparable<T>> {
 				this.visitNode();
 			}
 		}
+
+		private void levelOrderTraversal(){
+			LinkedList <BinaryTreeSearchNode> myQueue = new LinkedList<BinaryTreeSearchNode>();
+			BinaryTreeSearchNode<T> currentNode = this;
+			myQueue.add(currentNode);
+			int counter = 0;
+			while (!myQueue.isEmpty()){
+				BinaryTreeSearchNode<T> node = myQueue.poll();	
+				System.out.println("Height: " +  node.getHeight(node) + "Node:" + node.data); // node.visitNode();
+				if (node.leftNode != null){
+					myQueue.add(node.leftNode);
+				}
+				if (node.rightNode != null){
+					myQueue.add(node.rightNode);
+				}
+			}
+		}
 	}
 
 
@@ -140,5 +159,8 @@ public class BinaryTree <T extends Comparable<T>> {
 		treeRoot.inOrderTraversal();
 		System.out.println("Post Order Traversal");
 		treeRoot.postOrderTraversal();
+		System.out.println("Level Order Traversal");
+		treeRoot.levelOrderTraversal();
+
 	}
 }
