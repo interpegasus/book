@@ -1,30 +1,31 @@
-class Node(object):
-    def __init__(self, data):
-        self.data = data
-        self.next = None
+class Node:
+	def __init__(self, data, next):
+		self.data = data
+		self.next = next
 
-class Stack(object):    
-    def __init__(self):  
-        self.top = None
+class Stack:
+	def __init__(self):
+		self.head = None
+	
+	def push(self, data):
+		self.head = Node(data, self.head)
 
-    def isEmpty(self):
-        return self.top == None                
+	def pop(self):
+		data = self.head.data
+		self.head = self.head.next
+		return data 
 
-    def peek(self):
-        return self.top.data        
 
-    def push(self, data):
-        new_data = Node(data)
-        if self.top is None:
-           self.top = new_data
-        else:
-           new_data.next = self.top
-           self.top = new_data        
+class StackArray:
+	
+	def __init__(self):
+		self.data = []
 
-    def pop(self):
-        if self.top:
-           data = self.top.data
-           self.top = self.top.next
-           return data
-        else:
-           return None           
+	def push(self, item):
+		self.data.append(item)
+
+	def pop(self):
+		return self.data.pop()
+
+	def peek(self):
+		return self.data[-1]        

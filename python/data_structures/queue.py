@@ -1,31 +1,28 @@
-class Node(object):
-  def __init__(self, item = None):
-    self.item = item
-    self.next = None
-    self.previous = None
+class Node:
+    def __init__(self, data, next=None, prev=None):
+        self.data = data
+        self.next = next
+        self.prev = prev
 
 
-class Queue(object):
-  def __init__(self):
-    self.length = 0
-    self.head = None
-    self.tail = None
+class Queue:
+    def __init__(self):
+        self.head = None
+        self.tail = None
+        self.length = 0
 
-  def enqueue(self, x):
-    newNode = Node(x)
-    if self.head == None:
-      self.head = self.tail = newNode
-    else:
-      self.tail.next = newNode
-      newNode.previous = self.tail
-      self.tail = newNode
-    self.length += 1
-
-
-  def dequeue (self):
-    item = self.head.item
-    self.head = self.head.next 
-    self.length -= 1
-    if self.length == 0:
-      self.last = None
-    return item
+    def enqueue(self, data):
+        new_node = Node(data, None, self.head)
+        if not self.head:
+            self.head = new_node
+        else:
+            self.tail.next = new_node
+            new_node.prev = self.tail
+        self.tail = new_node
+        self.length += 1
+    
+    def dequeue(self):
+        data = self.head.data
+        self.head = self.head.next
+        self.length -= 1
+        return data

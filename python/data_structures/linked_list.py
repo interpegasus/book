@@ -1,85 +1,44 @@
 class Node:
-    def __init__(self, data):
-        self.item = data
-        self.next = None
 
-class LinkedList:
+    def __init__(self, data, next):
+        self.data = data
+        self.next = next
+
+
+class SinglyLinkedList:
+
     def __init__(self):
-        self.start_node = None
+        self.head = None
+        self.length = 0
+    
+    def insert(self, data):
+        self.head = Node(data, self.head)
+        self.length += 1
+    
+    def remove_at_index(self, idx):
+        dummy = Node(None, self.head)
+        prev, curr = dummy, dummy.next
+        check_idx = 0
+        
+        while curr:
+            print(idx, check_idx)
+            if idx == check_idx:
+                prev.next = curr.next
+                curr.next = None
+            check_idx += 1
+            prev, curr = curr, curr.next
 
+    def iterate(self):
+        node = self.head
+        while(node):
+            print(node.data)
+            node = node.next
 
-    def traverse_list(self):
-        if self.start_node is None:
-            print("List has no element")
-            return
-        else:
-            print("Traversing single linked list")
-            n = self.start_node
-            while n is not None:
-                print(n.item)
-                n = n.next
-
-    def insert_at_start(self, data):
-        new_node = Node(data)
-        new_node.next = self.start_node
-        self.start_node= new_node                
-
-
-    def insert_at_end(self, data):
-        new_node = Node(data)
-        if self.start_node is None:
-            self.start_node = new_node
-            return
-        n = self.start_node
-        while n.next is not None:
-            n= n.next
-        n.next = new_node
-
-
-    def insert_after_node_x(self,x, data):
-        n = self.start_node        
-        while n is not None:
-            if n.item == x:
-                break
-            n = n.next
-        if n is None:
-            print("item not in the list")
-        else:
-            new_node = Node(data)
-            new_node.next = n.next
-            n.next = new_node     
-
-    def insert_before_node_x(self, x, data):
-        if self.start_node is None:
-            print("List has no element")
-            return
-
-        if x == self.start_node.item:
-            new_node = Node(data)
-            new_node.next = self.start_node
-            self.start_node = new_node
-            return
-
-        n = self.start_node
-        print(n.next)
-        while n.next is not None:
-            if n.next.item == x:
-                break
-            n = n.next
-        if n.next is None:
-            print("item not in the list")
-        else:
-            new_node = Node(data)
-            new_node.next = n.next
-            n.next = new_node            
-
-
-single_linked_list = LinkedList()
-single_linked_list.insert_at_end(9)
-single_linked_list.insert_at_end(2)
-single_linked_list.insert_at_end(3)
-single_linked_list.insert_at_end(5)
-single_linked_list.insert_at_end(6)
-single_linked_list.insert_at_end(3)
-single_linked_list.insert_at_start(1)
-single_linked_list.traverse_list()
+    def search(self, data):
+        idx = 0
+        node = self.head
+        while node:
+            if node.data == data: return idx
+            node = node.next
+            idx += 1
+        return -1
